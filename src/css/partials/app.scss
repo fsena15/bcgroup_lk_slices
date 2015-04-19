@@ -1,0 +1,119 @@
+@import "constants";
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 ExtraBold';
+  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-ExtraBold.otf');
+}
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Bold';
+  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Medium';
+  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Medium.otf');
+}
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Regular';
+  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.otf');
+}
+
+body {
+  font-family: "Foundary Monoline OT3 Medium", $font-stack;
+}
+
+.f-m-extra-bold {
+  font-family: "Foundary Monoline OT3 ExtraBold", $font-stack;
+}
+
+.bordered {
+  border: 5px solid #77644A;
+  color: #77644A;
+  padding: 0 8px;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.main-block {
+  padding: 40px 0px;
+  text-align: center;
+  width: $page-width;
+
+  .common-statistics {
+    table td {
+      padding-left: 10px;
+      padding-top: 5px;
+      line-height: 1;
+    }
+
+    .statistics {
+      @extend .f-m-extra-bold;
+      color: $color-yellow;
+      font-size: 7em;
+      letter-spacing: -0.075em;
+      padding: 0;
+    }
+
+    .main-statistics {
+      @extend .f-m-extra-bold;
+      color: $color-yellow;
+      font-size: 15em;
+      letter-spacing: -0.075em;
+      line-height: 0.8em;
+      position: relative;
+      left: -7px;
+    }
+
+    .comment {
+      color: #948269;
+      font-family: "Foundary Monoline OT3 Regular", $font-stack;
+      font-size: 1.15em;
+    }
+
+    .bordered-comment {
+      font-family: "Foundary Monoline OT3 Medium", $font-stack;
+      color: #948269;
+      text-transform: uppercase;
+      font-size: 1em;
+      letter-spacing: 0.2em;
+      margin: 0.75em;
+    }
+
+    .main-comment {
+      font-family: "Foundary Monoline OT3 Bold", $font-stack;
+      color: #948269;
+      font-size: 2.75em;
+      position: relative;
+      left: 0.8em;
+    }
+
+    .clock {
+      float: left;
+      height: 95px;
+      width: 95px;
+      margin-left: ($page-width - 95px) / 2;
+    }
+
+    .experience-map {
+      height: 150px;
+      width: 250px;
+    }
+
+    .goodness {
+      margin-left: 50%;
+      text-align: left;
+      position: relative;
+      left: -4em;
+    }
+  }
+}

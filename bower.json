@@ -1,0 +1,20 @@
+{
+  "name": "bcgroup_slices",
+  "version": "0.0.0",
+  "authors": [
+    "Shnell Pavel <shnellpavel@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "1.*",
+    "bootstrap": "3.*"
+  }
+}
