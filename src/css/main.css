@@ -54,7 +54,8 @@ body {
     color: #ffc838;
     font-size: 7em;
     letter-spacing: -0.075em;
-    padding: 0; }
+    padding: 0;
+    line-height: 0.8em; }
   .main-block .common-statistics .main-statistics {
     color: #ffc838;
     font-size: 15em;
@@ -65,7 +66,9 @@ body {
   .main-block .common-statistics .comment {
     color: #948269;
     font-family: "Foundary Monoline OT3 Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1.15em; }
+    font-size: 1.15em;
+    text-align: left;
+    padding-left: 7px; }
   .main-block .common-statistics .bordered-comment {
     font-family: "Foundary Monoline OT3 Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #948269;
@@ -91,4 +94,17 @@ body {
     margin-left: 50%;
     text-align: left;
     position: relative;
-    left: -4em; }
+    left: -4em;
+    width: 190px; }
+  .main-block .common-statistics .operators {
+    width: 110px;
+    margin-left: 245px; }
+  .main-block .common-statistics .matrix {
+    width: 205px; }
+  .main-block .common-statistics .quick-analytics {
+    width: 550px; }
+  .main-block .common-statistics .awards {
+    width: 185px;
+    float: left;
+    height: 55px;
+    margin-left: 485px; }
