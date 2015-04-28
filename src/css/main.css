@@ -24,7 +24,8 @@
   src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.otf"); }
 
 body {
-  font-family: "Foundary Monoline OT3 Medium", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Foundary Monoline OT3 Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px; }
 
 .f-m-extra-bold, .main-block .common-statistics .statistics, .main-block .common-statistics .main-statistics {
   font-family: "Foundary Monoline OT3 ExtraBold", "Helvetica Neue", Helvetica, Arial, sans-serif; }
@@ -43,7 +44,7 @@ body {
   text-align: left; }
 
 .main-block {
-  padding: 40px 0px;
+  padding: 40px 0;
   text-align: center;
   width: 1086px; }
   .main-block .common-statistics table td {
@@ -58,9 +59,9 @@ body {
     line-height: 0.8em; }
   .main-block .common-statistics .main-statistics {
     color: #ffc838;
-    font-size: 15em;
+    font-size: 14em;
     letter-spacing: -0.075em;
-    line-height: 0.8em;
+    line-height: 0.7em;
     position: relative;
     left: -7px; }
   .main-block .common-statistics .comment {
@@ -75,27 +76,40 @@ body {
     text-transform: uppercase;
     font-size: 1em;
     letter-spacing: 0.2em;
-    margin: 0.75em; }
+    margin: 0.75em 0.75em 0.2em 0.75em; }
   .main-block .common-statistics .main-comment {
     font-family: "Foundary Monoline OT3 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #948269;
     font-size: 2.75em;
     position: relative;
-    left: 0.8em; }
-  .main-block .common-statistics .clock {
-    float: left;
-    height: 95px;
-    width: 95px;
-    margin-left: 495.5px; }
-  .main-block .common-statistics .experience-map {
-    height: 150px;
-    width: 250px; }
+    left: 0.8em;
+    margin-bottom: 0.5em; }
+  .main-block .common-statistics .clock-line {
+    height: 98px; }
+    .main-block .common-statistics .clock-line .clock {
+      float: left;
+      height: 98px;
+      width: 98px;
+      background: url("../../img/clock.png");
+      margin-left: 494px; }
+  .main-block .common-statistics .map-line {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 104px; }
+    .main-block .common-statistics .map-line .experience-map {
+      height: 150px;
+      width: 248px;
+      background: url("../../img/map.png");
+      margin: 7px; }
   .main-block .common-statistics .goodness {
     margin-left: 50%;
     text-align: left;
     position: relative;
     left: -4em;
-    width: 190px; }
+    width: 190px;
+    margin-top: 10px; }
+    .main-block .common-statistics .goodness .comment {
+      padding-top: 5px; }
   .main-block .common-statistics .operators {
     width: 110px;
     margin-left: 245px; }
@@ -103,8 +117,51 @@ body {
     width: 205px; }
   .main-block .common-statistics .quick-analytics {
     width: 550px; }
-  .main-block .common-statistics .awards {
-    width: 185px;
-    float: left;
-    height: 55px;
-    margin-left: 485px; }
+  .main-block .common-statistics .awards-line {
+    margin-top: 20px; }
+    .main-block .common-statistics .awards-line .awards {
+      width: 188px;
+      float: left;
+      height: 64px;
+      margin-left: 485px;
+      background: url("../../img/awards.png");
+      margin-right: 18px; }
+    .main-block .common-statistics .awards-line .comment {
+      padding-top: 22px; }
+  .main-block .common-statistics .final-line {
+    height: 244px; }
+    .main-block .common-statistics .final-line > div {
+      float: left; }
+    .main-block .common-statistics .final-line .safe {
+      height: 187px;
+      width: 172px;
+      background: url("../../img/safe.png");
+      margin-top: 57px; }
+    .main-block .common-statistics .final-line .operator {
+      height: 244px;
+      width: 182px;
+      background: url("../../img/call_operator.png");
+      margin-top: 0px; }
+    .main-block .common-statistics .final-line .archive {
+      height: 235px;
+      width: 340px;
+      background: url("../../img/archive.png");
+      margin-top: 9px; }
+  .main-block .common-statistics .chain1 {
+    width: 3px;
+    height: 50px;
+    background: url("../../img/chain1.png"); }
+  .main-block .common-statistics .chain2 {
+    width: 127px;
+    height: 94px;
+    background: url("../../img/chain2.png");
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -3em; }
+  .main-block .common-statistics .chain3 {
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 50px;
+    height: 304px;
+    width: 42px;
+    background: url("../../img/chain3.png"); }
