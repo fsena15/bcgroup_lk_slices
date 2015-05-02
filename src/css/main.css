@@ -38,7 +38,8 @@ body {
   font-weight: bold; }
 
 .center {
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
 
 .text-left {
   text-align: left; }
@@ -46,122 +47,191 @@ body {
 .main-block {
   padding: 40px 0;
   text-align: center;
-  width: 1086px; }
-  .main-block .common-statistics table td {
-    padding-left: 10px;
-    padding-top: 5px;
-    line-height: 1; }
-  .main-block .common-statistics .statistics {
-    color: #ffc838;
-    font-size: 7em;
-    letter-spacing: -0.075em;
-    padding: 0;
-    line-height: 0.8em; }
-  .main-block .common-statistics .main-statistics {
-    color: #ffc838;
-    font-size: 14em;
-    letter-spacing: -0.075em;
-    line-height: 0.7em;
-    position: relative;
-    left: -7px; }
-  .main-block .common-statistics .comment {
+  width: 1080px;
+  line-height: 1; }
+  .main-block .comment {
     color: #948269;
     font-family: "Foundary Monoline OT3 Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1.15em;
-    text-align: left;
+    font-size: 1.4em;
     padding-left: 7px; }
-  .main-block .common-statistics .bordered-comment {
-    font-family: "Foundary Monoline OT3 Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #948269;
-    text-transform: uppercase;
-    font-size: 1em;
-    letter-spacing: 0.2em;
-    margin: 0.75em 0.75em 0.2em 0.75em; }
-  .main-block .common-statistics .main-comment {
-    font-family: "Foundary Monoline OT3 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #948269;
-    font-size: 2.75em;
-    position: relative;
-    left: 0.8em;
-    margin-bottom: 0.5em; }
-  .main-block .common-statistics .clock-line {
-    height: 98px; }
-    .main-block .common-statistics .clock-line .clock {
-      float: left;
-      height: 98px;
-      width: 98px;
-      background: url("../../img/clock.png");
-      margin-left: 494px; }
-  .main-block .common-statistics .map-line {
-    position: absolute;
-    margin-top: -40px;
-    margin-left: 104px; }
-    .main-block .common-statistics .map-line .experience-map {
-      height: 150px;
-      width: 248px;
-      background: url("../../img/map.png");
-      margin: 7px; }
-  .main-block .common-statistics .goodness {
-    margin-left: 50%;
-    text-align: left;
-    position: relative;
-    left: -4em;
-    width: 190px;
-    margin-top: 10px; }
-    .main-block .common-statistics .goodness .comment {
-      padding-top: 5px; }
-  .main-block .common-statistics .operators {
-    width: 110px;
-    margin-left: 245px; }
-  .main-block .common-statistics .matrix {
-    width: 205px; }
-  .main-block .common-statistics .quick-analytics {
-    width: 550px; }
-  .main-block .common-statistics .awards-line {
-    margin-top: 20px; }
-    .main-block .common-statistics .awards-line .awards {
-      width: 188px;
-      float: left;
-      height: 64px;
-      margin-left: 485px;
-      background: url("../../img/awards.png");
-      margin-right: 18px; }
-    .main-block .common-statistics .awards-line .comment {
-      padding-top: 22px; }
-  .main-block .common-statistics .final-line {
-    height: 244px; }
-    .main-block .common-statistics .final-line > div {
-      float: left; }
-    .main-block .common-statistics .final-line .safe {
-      height: 187px;
-      width: 172px;
-      background: url("../../img/safe.png");
-      margin-top: 57px; }
-    .main-block .common-statistics .final-line .operator {
-      height: 244px;
-      width: 182px;
-      background: url("../../img/call_operator.png");
-      margin-top: 0px; }
-    .main-block .common-statistics .final-line .archive {
-      height: 235px;
-      width: 340px;
-      background: url("../../img/archive.png");
-      margin-top: 9px; }
-  .main-block .common-statistics .chain1 {
-    width: 3px;
-    height: 50px;
-    background: url("../../img/chain1.png"); }
-  .main-block .common-statistics .chain2 {
-    width: 127px;
-    height: 94px;
-    background: url("../../img/chain2.png");
-    position: absolute;
-    margin-left: 350px;
-    margin-top: -3em; }
-  .main-block .common-statistics .chain3 {
-    position: absolute;
-    margin-left: 460px;
-    margin-top: 50px;
-    height: 304px;
-    width: 42px;
-    background: url("../../img/chain3.png"); }
+  .main-block .common-statistics {
+    margin-bottom: 70px; }
+    .main-block .common-statistics table td {
+      padding-left: 10px;
+      padding-top: 5px;
+      line-height: 1; }
+    .main-block .common-statistics .link {
+      color: #40A4D3;
+      margin: 0 5px;
+      cursor: pointer; }
+    .main-block .common-statistics .link:not(:hover) {
+      background: url("../../img/link_line.png") repeat-x 0 3px; }
+    .main-block .common-statistics .link:hover {
+      text-decoration: none; }
+    .main-block .common-statistics .statistics {
+      color: #ffc838;
+      font-size: 7em;
+      letter-spacing: -0.075em;
+      padding: 0;
+      line-height: 0.8em; }
+    .main-block .common-statistics .main-statistics {
+      color: #ffc838;
+      font-size: 14em;
+      letter-spacing: -0.075em;
+      line-height: 0.7em;
+      position: relative;
+      left: -7px;
+      margin-bottom: 10px; }
+    .main-block .common-statistics .bordered-comment {
+      font-family: "Foundary Monoline OT3 Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #948269;
+      text-transform: uppercase;
+      font-size: 1.2em;
+      letter-spacing: 0.2em;
+      margin: 1.5em 0.75em 0.2em 0.75em;
+      line-height: 1.5; }
+    .main-block .common-statistics .main-comment {
+      font-family: "Foundary Monoline OT3 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #948269;
+      font-size: 2.75em;
+      position: relative;
+      left: 0.8em;
+      margin-bottom: 0.75em; }
+    .main-block .common-statistics .clock-line {
+      height: 98px; }
+      .main-block .common-statistics .clock-line .clock {
+        float: left;
+        height: 98px;
+        width: 98px;
+        background: url("../../img/clock.png");
+        margin-left: 491px; }
+    .main-block .common-statistics .map-line {
+      position: absolute;
+      margin-top: -40px;
+      margin-left: 104px; }
+      .main-block .common-statistics .map-line .experience-map {
+        height: 150px;
+        width: 248px;
+        background: url("../../img/map.png");
+        margin: 20px 7px; }
+    .main-block .common-statistics .goodness {
+      margin-left: 50%;
+      text-align: left;
+      position: relative;
+      left: -4em;
+      width: 190px;
+      margin-top: 10px; }
+      .main-block .common-statistics .goodness .comment {
+        padding-top: 5px; }
+    .main-block .common-statistics .operators {
+      width: 110px;
+      margin-left: 240px;
+      position: absolute;
+      margin-top: -50px; }
+    .main-block .common-statistics .free-survey {
+      position: absolute;
+      margin-left: -20px;
+      margin-top: -45px; }
+    .main-block .common-statistics .matrix {
+      width: 225px;
+      margin: 0 10px 10px 193px; }
+    .main-block .common-statistics .quick-analytics {
+      width: 550px;
+      margin-left: 20px;
+      margin-top: 25px; }
+    .main-block .common-statistics .awards-line {
+      margin-top: 20px; }
+      .main-block .common-statistics .awards-line .awards {
+        width: 188px;
+        float: left;
+        height: 64px;
+        margin-left: 485px;
+        background: url("../../img/awards.png");
+        margin-right: 18px; }
+      .main-block .common-statistics .awards-line .comment {
+        padding-top: 24.1px; }
+    .main-block .common-statistics .final-line {
+      margin-top: -100px;
+      margin-bottom: 10px;
+      height: 244px; }
+      .main-block .common-statistics .final-line > div {
+        float: left; }
+      .main-block .common-statistics .final-line .safe {
+        height: 187px;
+        width: 172px;
+        background: url("../../img/safe.png");
+        margin-top: 57px;
+        margin-left: 200px; }
+      .main-block .common-statistics .final-line .operator {
+        height: 244px;
+        width: 182px;
+        background: url("../../img/call_operator.png");
+        margin-top: 0px;
+        margin-left: 82px; }
+      .main-block .common-statistics .final-line .archive {
+        height: 235px;
+        width: 340px;
+        background: url("../../img/archive.png");
+        margin-top: 9px;
+        margin-left: 25px;
+        padding-top: 150px;
+        padding-left: 30px; }
+        .main-block .common-statistics .final-line .archive .projects-count {
+          font-family: "Foundary Monoline OT3 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          color: #ffc838;
+          font-size: 1.4em;
+          text-align: left;
+          padding-left: 1em;
+          margin-top: 1em; }
+    .main-block .common-statistics .chain1 {
+      width: 3px;
+      height: 50px;
+      background: url("../../img/chain1.png"); }
+    .main-block .common-statistics .chain2 {
+      width: 127px;
+      height: 94px;
+      background: url("../../img/chain2.png");
+      position: absolute;
+      margin-left: 350px;
+      margin-top: -3em; }
+    .main-block .common-statistics .chain3 {
+      position: absolute;
+      margin-left: 460px;
+      margin-top: 50px;
+      height: 304px;
+      width: 42px;
+      background: url("../../img/chain3.png"); }
+    .main-block .common-statistics .chain4 {
+      width: 167px;
+      height: 152px;
+      background: url("../../img/chain4.png");
+      position: relative;
+      left: -105px;
+      top: -10px; }
+    .main-block .common-statistics .chain5 {
+      width: 286px;
+      height: 42px;
+      background: url("../../img/chain5.png");
+      position: relative;
+      z-index: 10;
+      top: -15px;
+      left: -25px; }
+    .main-block .common-statistics .chain6 {
+      width: 25px;
+      height: 165px;
+      background: url("../../img/chain6.png");
+      position: absolute;
+      margin-left: 440px;
+      margin-top: 125px; }
+    .main-block .common-statistics .chain7 {
+      width: 36px;
+      height: 106px;
+      background: url("../../img/chain7.png");
+      position: absolute;
+      margin-left: 150px;
+      margin-top: 160px; }
+  .main-block .projects .head {
+    color: #ffc838;
+    font-family: "Foundary Monoline OT3 ExtraBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 5em;
+    letter-spacing: -.04em; }
