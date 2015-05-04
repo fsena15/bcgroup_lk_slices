@@ -1,0 +1,51 @@
+@import "common";
+
+.footer {
+  background: #666054;
+  font-family: $font-fmOT3-regular;
+  font-size: 1.15em;
+  line-height: 1em;
+  color: #fff;
+  padding: 33px 0;
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+    padding: 0 5px;
+  }
+
+  .addresses td {
+    padding: 0 30px 16px 0;
+  }
+
+  .address {
+    float: right;
+
+    .left {
+      float: left;
+      text-align: right;
+      padding-right: 8px;
+      border-right: 1px solid #fff;
+    }
+
+    .right {
+      float: left;
+      padding-left: 8px;
+      text-align: left;
+    }
+
+    .city {
+      color: $color-yellow;
+      font-family: $font-fmOT3-bold;
+      font-size: 1.25em;
+    }
+
+    .city, .street {
+      margin-bottom: 4px;
+    }
+  }
+
+  .copyright {
+    margin-top: 30px;
+  }
+}

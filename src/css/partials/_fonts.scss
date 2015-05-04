@@ -1,0 +1,26 @@
+@import "constants";
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 ExtraBold';
+  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-ExtraBold.otf');
+}
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Bold';
+  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Medium';
+  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Medium.otf');
+}
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Regular';
+  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.otf');
+}
+
+$font-fmOT3-ex-bold: 'Foundary Monoline OT3 ExtraBold', $font-stack;
+$font-fmOT3-bold: 'Foundary Monoline OT3 Bold', $font-stack;
+$font-fmOT3-medium: 'Foundary Monoline OT3 Medium', $font-stack;
+$font-fmOT3-regular: 'Foundary Monoline OT3 Regular', $font-stack;
