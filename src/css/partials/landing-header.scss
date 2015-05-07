@@ -1,0 +1,59 @@
+@import "common";
+
+$height-header: 870px;
+$height-top-navbar: 100px;
+$height-pages-navbar: 120px;
+
+.header {
+  background: $color-yellow;
+  height: $height-header;
+  font-family: $font-fmOT3-bold;
+  font-size: 1.15em;
+  padding-top: 30px;
+
+  .navbar {
+    height: $height-top-navbar;
+
+  }
+
+  #navbar {
+    a {
+      color: #fff;
+      cursor: pointer;
+      padding-right: 0;
+
+      > span {
+        border-right: 1px solid;
+        padding-right: 15px;
+      }
+
+      &:hover {
+        background-color: inherit;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .jumbotron {
+    height: $height-header - $height-top-navbar - 20px - 30px;
+    padding: 0;
+    background: $color-yellow;
+
+    .bcg {
+      width: 894px;
+      height: 582px;
+      background: url("../../img/BCG_clear.png");
+      margin: 0 auto;
+      left: -270px;
+      position: relative;
+
+      .roup {
+        padding-top: 164px;
+        padding-left: 846px;
+        color: #fff;
+        font-size: 12em;
+        font-family: $font-GP-bold;
+      }
+    }
+  }
+}

@@ -23,6 +23,54 @@
   font-family: 'Foundary Monoline OT3 Regular';
   src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.otf"); }
 
+@font-face {
+  font-family: 'GothamPro Black';
+  src: url("../../fonts/GothamPro/GothaProBla.otf"); }
+
+@font-face {
+  font-family: 'GothamPro BlackItalic';
+  src: url("../../fonts/GothamPro/GothaProBlaIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Bold';
+  src: url("../../fonts/GothamPro/GothaProBol.otf"); }
+
+@font-face {
+  font-family: 'GothamPro BoldItalic';
+  src: url("../../fonts/GothamPro/GothaProBolIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Italic';
+  src: url("../../fonts/GothamPro/GothaProIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Light';
+  src: url("../../fonts/GothamPro/GothaProLig.otf"); }
+
+@font-face {
+  font-family: 'GothamPro LightItalic';
+  src: url("../../fonts/GothamPro/GothaProLigIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Medium';
+  src: url("../../fonts/GothamPro/GothaProMed.otf"); }
+
+@font-face {
+  font-family: 'GothamPro MediumItalic';
+  src: url("../../fonts/GothamPro/GothaProMedIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro NarrowBold';
+  src: url("../../fonts/GothamPro/GothaProNarBol.otf"); }
+
+@font-face {
+  font-family: 'GothamPro NarrowMedium';
+  src: url("../../fonts/GothamPro/GothaProNarMed.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Regular';
+  src: url("../../fonts/GothamPro/GothaProReg.otf"); }
+
 .yellow-text {
   color: #ffc838; }
 
@@ -48,6 +96,164 @@
 @font-face {
   font-family: 'Foundary Monoline OT3 Regular';
   src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Black';
+  src: url("../../fonts/GothamPro/GothaProBla.otf"); }
+
+@font-face {
+  font-family: 'GothamPro BlackItalic';
+  src: url("../../fonts/GothamPro/GothaProBlaIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Bold';
+  src: url("../../fonts/GothamPro/GothaProBol.otf"); }
+
+@font-face {
+  font-family: 'GothamPro BoldItalic';
+  src: url("../../fonts/GothamPro/GothaProBolIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Italic';
+  src: url("../../fonts/GothamPro/GothaProIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Light';
+  src: url("../../fonts/GothamPro/GothaProLig.otf"); }
+
+@font-face {
+  font-family: 'GothamPro LightItalic';
+  src: url("../../fonts/GothamPro/GothaProLigIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Medium';
+  src: url("../../fonts/GothamPro/GothaProMed.otf"); }
+
+@font-face {
+  font-family: 'GothamPro MediumItalic';
+  src: url("../../fonts/GothamPro/GothaProMedIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro NarrowBold';
+  src: url("../../fonts/GothamPro/GothaProNarBol.otf"); }
+
+@font-face {
+  font-family: 'GothamPro NarrowMedium';
+  src: url("../../fonts/GothamPro/GothaProNarMed.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Regular';
+  src: url("../../fonts/GothamPro/GothaProReg.otf"); }
+
+.yellow-text {
+  color: #ffc838; }
+
+.center {
+  margin: 0 auto;
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.header {
+  background: #ffc838;
+  height: 870px;
+  font-family: "Foundary Monoline OT3 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.15em;
+  padding-top: 30px; }
+  .header .navbar {
+    height: 100px; }
+  .header #navbar a {
+    color: #fff;
+    cursor: pointer;
+    padding-right: 0; }
+    .header #navbar a > span {
+      border-right: 1px solid;
+      padding-right: 15px; }
+    .header #navbar a:hover {
+      background-color: inherit;
+      text-decoration: underline; }
+  .header .jumbotron {
+    height: 720px;
+    padding: 0;
+    background: #ffc838; }
+    .header .jumbotron .bcg {
+      width: 894px;
+      height: 582px;
+      background: url("../../img/BCG_clear.png");
+      margin: 0 auto;
+      left: -270px;
+      position: relative; }
+      .header .jumbotron .bcg .roup {
+        padding-top: 164px;
+        padding-left: 846px;
+        color: #fff;
+        font-size: 12em;
+        font-family: "GothamPro Bold", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 ExtraBold';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-ExtraBold.otf"); }
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Bold';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Bold.otf"); }
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Medium';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Medium.otf"); }
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Regular';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Black';
+  src: url("../../fonts/GothamPro/GothaProBla.otf"); }
+
+@font-face {
+  font-family: 'GothamPro BlackItalic';
+  src: url("../../fonts/GothamPro/GothaProBlaIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Bold';
+  src: url("../../fonts/GothamPro/GothaProBol.otf"); }
+
+@font-face {
+  font-family: 'GothamPro BoldItalic';
+  src: url("../../fonts/GothamPro/GothaProBolIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Italic';
+  src: url("../../fonts/GothamPro/GothaProIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Light';
+  src: url("../../fonts/GothamPro/GothaProLig.otf"); }
+
+@font-face {
+  font-family: 'GothamPro LightItalic';
+  src: url("../../fonts/GothamPro/GothaProLigIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Medium';
+  src: url("../../fonts/GothamPro/GothaProMed.otf"); }
+
+@font-face {
+  font-family: 'GothamPro MediumItalic';
+  src: url("../../fonts/GothamPro/GothaProMedIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro NarrowBold';
+  src: url("../../fonts/GothamPro/GothaProNarBol.otf"); }
+
+@font-face {
+  font-family: 'GothamPro NarrowMedium';
+  src: url("../../fonts/GothamPro/GothaProNarMed.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Regular';
+  src: url("../../fonts/GothamPro/GothaProReg.otf"); }
 
 .yellow-text {
   color: #ffc838; }

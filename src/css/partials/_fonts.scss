@@ -24,3 +24,77 @@ $font-fmOT3-ex-bold: 'Foundary Monoline OT3 ExtraBold', $font-stack;
 $font-fmOT3-bold: 'Foundary Monoline OT3 Bold', $font-stack;
 $font-fmOT3-medium: 'Foundary Monoline OT3 Medium', $font-stack;
 $font-fmOT3-regular: 'Foundary Monoline OT3 Regular', $font-stack;
+
+
+@font-face {
+  font-family: 'GothamPro Black';
+  src: url('../../fonts/GothamPro/GothaProBla.otf');
+}
+
+@font-face {
+  font-family: 'GothamPro BlackItalic';
+  src: url('../../fonts/GothamPro/GothaProBlaIta.otf');
+}
+
+@font-face {
+  font-family: 'GothamPro Bold';
+  src: url('../../fonts/GothamPro/GothaProBol.otf');
+}
+
+@font-face {
+  font-family: 'GothamPro BoldItalic';
+  src: url('../../fonts/GothamPro/GothaProBolIta.otf');
+}
+
+@font-face {
+  font-family: 'GothamPro Italic';
+  src: url('../../fonts/GothamPro/GothaProIta.otf');
+}
+
+@font-face {
+  font-family: 'GothamPro Light';
+  src: url('../../fonts/GothamPro/GothaProLig.otf');
+}
+
+@font-face {
+  font-family: 'GothamPro LightItalic';
+  src: url('../../fonts/GothamPro/GothaProLigIta.otf');
+}
+
+@font-face {
+  font-family: 'GothamPro Medium';
+  src: url('../../fonts/GothamPro/GothaProMed.otf');
+}
+
+@font-face {
+  font-family: 'GothamPro MediumItalic';
+  src: url('../../fonts/GothamPro/GothaProMedIta.otf');
+}
+
+@font-face {
+  font-family: 'GothamPro NarrowBold';
+  src: url('../../fonts/GothamPro/GothaProNarBol.otf');
+}
+
+@font-face {
+  font-family: 'GothamPro NarrowMedium';
+  src: url('../../fonts/GothamPro/GothaProNarMed.otf');
+}
+
+@font-face {
+  font-family: 'GothamPro Regular';
+  src: url('../../fonts/GothamPro/GothaProReg.otf');
+}
+
+$font-GP-bl: 'GothamPro Black', $font-stack;
+$font-GP-bl-it: 'GothamPro BlackItalic', $font-stack;
+$font-GP-bold: 'GothamPro Bold', $font-stack;
+$font-GP-bold-it: 'GothamPro BoldItalic', $font-stack;
+$font-GP-it: 'GothamPro Italic', $font-stack;
+$font-GP-lt: 'GothamPro Ligth', $font-stack;
+$font-GP-lt-it: 'GothamPro LigthItalic', $font-stack;
+$font-GP-med: 'GothamPro Medium', $font-stack;
+$font-GP-med-it: 'GothamPro MediumItalic', $font-stack;
+$font-GP-nar-bold: 'GothamPro NarrowBold', $font-stack;
+$font-GP-nar-med: 'GothamPro NarrowMedium', $font-stack;
+$font-GP-reg: 'GothamPro Regular', $font-stack;
