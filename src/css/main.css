@@ -155,41 +155,265 @@
 .text-left {
   text-align: left; }
 
+@font-face {
+  font-family: 'Foundary Monoline OT3 ExtraBold';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-ExtraBold.otf"); }
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Bold';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Bold.otf"); }
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Medium';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Medium.otf"); }
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Regular';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Black';
+  src: url("../../fonts/GothamPro/GothaProBla.otf"); }
+
+@font-face {
+  font-family: 'GothamPro BlackItalic';
+  src: url("../../fonts/GothamPro/GothaProBlaIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Bold';
+  src: url("../../fonts/GothamPro/GothaProBol.otf"); }
+
+@font-face {
+  font-family: 'GothamPro BoldItalic';
+  src: url("../../fonts/GothamPro/GothaProBolIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Italic';
+  src: url("../../fonts/GothamPro/GothaProIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Light';
+  src: url("../../fonts/GothamPro/GothaProLig.otf"); }
+
+@font-face {
+  font-family: 'GothamPro LightItalic';
+  src: url("../../fonts/GothamPro/GothaProLigIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Medium';
+  src: url("../../fonts/GothamPro/GothaProMed.otf"); }
+
+@font-face {
+  font-family: 'GothamPro MediumItalic';
+  src: url("../../fonts/GothamPro/GothaProMedIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro NarrowBold';
+  src: url("../../fonts/GothamPro/GothaProNarBol.otf"); }
+
+@font-face {
+  font-family: 'GothamPro NarrowMedium';
+  src: url("../../fonts/GothamPro/GothaProNarMed.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Regular';
+  src: url("../../fonts/GothamPro/GothaProReg.otf"); }
+
+.yellow-text {
+  color: #ffc838; }
+
+.center {
+  margin: 0 auto;
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.right-quick-menu {
+  position: fixed;
+  right: 0;
+  top: 357px;
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  font-family: "Foundary Monoline OT3 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.25em; }
+  .right-quick-menu a {
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: underline; }
+    .right-quick-menu a:hover {
+      text-decoration: none; }
+  .right-quick-menu.dark .menu-item a {
+    color: #4a4b4d; }
+  .right-quick-menu .menu-item {
+    height: 55px; }
+  .right-quick-menu .item-icon {
+    float: right;
+    height: 55px;
+    width: 55px;
+    background-color: #57585a;
+    padding: 7px;
+    text-align: center; }
+  .right-quick-menu .item-text {
+    text-align: right;
+    padding: 0 15px; }
+
 .header {
   background: #ffc838;
-  height: 870px;
+  height: 940px;
   font-family: "Foundary Monoline OT3 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.15em;
   padding-top: 30px; }
   .header .navbar {
     height: 100px; }
+  .header .main-menu {
+    margin-left: 115px; }
   .header #navbar a {
-    color: #fff;
+    color: #fff; }
+  .header #navbar li .divider {
+    border-left: 1px solid #FFFFFF;
+    height: 15px;
+    margin-top: 20px; }
+  .header #navbar li a {
     cursor: pointer;
-    padding-right: 0; }
-    .header #navbar a > span {
-      border-right: 1px solid;
-      padding-right: 15px; }
-    .header #navbar a:hover {
+    padding-left: 10px;
+    padding-right: 10px; }
+    .header #navbar li a:hover {
       background-color: inherit;
       text-decoration: underline; }
+  .header #navbar .languages {
+    text-transform: uppercase;
+    font-family: "Foundary Monoline OT3 Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .header #navbar .languages li.active a {
+      text-decoration: none;
+      color: #FFFFFF; }
+    .header #navbar .languages a {
+      font-size: 0.8em;
+      color: #4a4b4d;
+      padding-left: 5px;
+      padding-right: 5px;
+      text-decoration: underline; }
+      .header #navbar .languages a:hover {
+        background-color: inherit;
+        text-decoration: none; }
+  .header #navbar .search-form {
+    margin: 10px 20px;
+    width: 230px; }
+    .header #navbar .search-form .input-group-addon {
+      border: 0;
+      padding: 5px;
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+      background-color: #93855e; }
+    .header #navbar .search-form .search-input {
+      color: #FFFFFF;
+      padding-left: 6px;
+      border: 0;
+      height: 30px;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+      background-color: #93855e;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+    .header #navbar .search-form .search-len {
+      height: 20px;
+      width: 20px;
+      background: url("../../img/search_len.png"); }
+  .header #navbar .contacts {
+    font-family: "Foundary Monoline OT3 Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #4a4b4d;
+    padding: 13px 0 0 10px; }
+    .header #navbar .contacts .earphone {
+      background: url("../../img/earphone.png");
+      height: 17px;
+      width: 18px;
+      margin-right: 15px; }
+    .header #navbar .contacts .envelope {
+      background: url("../../img/envelope.png");
+      height: 13px;
+      width: 20px;
+      margin-right: 15px;
+      margin-top: 5px; }
   .header .jumbotron {
-    height: 720px;
+    height: 740px;
+    margin-top: 50px;
     padding: 0;
     background: #ffc838; }
     .header .jumbotron .bcg {
-      width: 894px;
-      height: 582px;
-      background: url("../../img/BCG_clear.png");
       margin: 0 auto;
-      left: -270px;
-      position: relative; }
+      position: relative;
+      height: 582px;
+      width: 1440px;
+      background: url("../../img/BCG_clear.png") no-repeat; }
       .header .jumbotron .bcg .roup {
         padding-top: 164px;
         padding-left: 846px;
         color: #fff;
         font-size: 12em;
         font-family: "GothamPro Bold", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .header .jumbotron .bcg .u-human {
+        height: 92px;
+        width: 36px;
+        background: url("../../img/u_human.png");
+        position: absolute;
+        right: 355px;
+        top: 195px; }
+      .header .jumbotron .bcg .company-purpose {
+        text-transform: uppercase;
+        color: #ffffff;
+        padding-left: 610px;
+        font-family: "GothamPro Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 2.5em;
+        padding-top: 15px; }
+
+.categories-navbar {
+  height: 120px;
+  background-color: #4b4b4d;
+  border-radius: 0;
+  padding: 30px 134px;
+  font-size: 1.1em; }
+  .categories-navbar .arrow, .categories-navbar .left-arrow, .categories-navbar .right-arrow {
+    height: 37px;
+    width: 21px;
+    float: left;
+    cursor: pointer;
+    margin: 10px 0; }
+  .categories-navbar .left-arrow {
+    background: url("../../img/arrow-left.png"); }
+  .categories-navbar .right-arrow {
+    background: url("../../img/arrow-right.png"); }
+  .categories-navbar .menu-items-container {
+    padding: 5px 50px;
+    float: left;
+    width: 1500px; }
+  .categories-navbar .menu-items-wrapper {
+    overflow: hidden; }
+  .categories-navbar .menu-items {
+    height: 48px;
+    padding: 0;
+    position: relative;
+    width: 2000px; }
+    .categories-navbar .menu-items li {
+      list-style: none;
+      float: left;
+      max-width: 100%; }
+  .categories-navbar .menu-item {
+    cursor: pointer;
+    width: 200px; }
+  .categories-navbar .category-icon {
+    height: 45px;
+    width: 45px; }
+    .categories-navbar .category-icon a {
+      text-decoration: none; }
+  .categories-navbar .category-name {
+    padding: 0 15px; }
+    .categories-navbar .category-name a {
+      text-decoration: none;
+      color: #FFFFFF; }
+      .categories-navbar .category-name a:hover {
+        text-decoration: none;
+        color: #FFFFFF; }
 
 @font-face {
   font-family: 'Foundary Monoline OT3 ExtraBold';

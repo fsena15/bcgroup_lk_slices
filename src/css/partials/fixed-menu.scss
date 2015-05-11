@@ -1,0 +1,45 @@
+@import "common";
+
+.right-quick-menu {
+  position: fixed;
+  right: 0;
+  top: 357px;
+  border-collapse:separate;
+  border-spacing: 0 5px;
+  font-family: $font-fmOT3-bold;
+  font-size: 1.25em;
+
+  a {
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &.dark .menu-item a {
+    color: #4a4b4d;
+  }
+
+  .menu-item {
+    height: 55px;
+  }
+
+  .item-icon {
+    float: right;
+    height: 55px;
+    width: 55px;
+    background-color: #57585a;
+    padding: 7px;
+    text-align: center;
+  }
+
+  .item-text {
+    text-align: right;
+    padding: 0 15px;
+
+  }
+
+}

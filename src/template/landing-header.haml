@@ -2,56 +2,141 @@
   %nav.navbar
     .container
       #navbar.navbar-collapse.collapse
-        %ul.nav.navbar-nav
+        %ul.nav.navbar-nav.main-menu
           %li
             %a
               %span
                 География
           %li
+            .divider
+          %li
             %a
               %span
                 Услуги
+          %li
+            .divider
           %li
             %a
               %span
                 Проекты и клиенты
           %li
+            .divider
+          %li
             %a
               %span
                 Контакты
-        %ul.nav.navbar-nav.navbar-right
-          %li
-            %a
-              RU
-          %li
-            %a
-              FR
-          %li
-            %a
-              GER
-        %div.pull-right
-          %span.glyphicon.glyphicon-earphone
+        %form.navbar-form.pull-left.search-form
+          .input-group
+            %span.input-group-addon
+              .search-len
+            %input.form-control.search-input{type: "text"}
+        .contacts.pull-left
+          .earphone.pull-left
           +7 (495) 726-73-17
           %br
-          %span.glyphicon.glyphicon-envelope
+          .envelope.pull-left
           mail@bcgroup.su
-        %form.navbar-form
-          %input.form-control{type: "text"}
+        %ul.languages.nav.navbar-nav.navbar-right
+          %li.active
+            %a
+              %span
+                Ru
+          %li
+            .divider
+          %li
+            %a
+              %span
+                Fr
+          %li
+            .divider
+          %li
+            %a
+              %span
+                Ger
   .jumbotron
     .container-fluid
       .bcg
         .roup
           roup
-      %h1
-        BCGroup
+        .u-human
+        .company-purpose
+          Исследовательское агенство
 
-%nav.navbar
-  .container
-    #navbar.navbar-collapse.collapse
-      %ul.nav.navbar-nav
+%nav.navbar.categories-navbar
+  .left-arrow
+  .menu-items-container
+    .menu-items-wrapper
+      %ul.menu-items
         %li
-          %a
-            Маркетологам
+          %table.menu-item
+            %tr
+              %td.category-icon
+                %a
+                  %img{src: "/img/analytics.png"}
+              %td.category-name
+                %a
+                  Маркетологам
         %li
-          %a
-            Аналитика
+          %table.menu-item
+            %tr
+              %td.category-icon
+                %a
+                  %img{src: "/img/analytics.png"}
+              %td.category-name
+                %a
+                  Расчёт ёмкости и долей рынка
+        %li
+          %table.menu-item
+            %tr
+              %td.category-icon
+                %a
+                  %img{src: "/img/analytics.png"}
+              %td.category-name
+                %a
+                  Узнаваемость, здоровье бренда
+        %li
+          %table.menu-item
+            %tr
+              %td.category-icon
+                %a
+                  %img{src: "/img/analytics.png"}
+              %td.category-name
+                %a
+                  Примеры работ
+        %li
+          %table.menu-item
+            %tr
+              %td.category-icon
+                %a
+                  %img{src: "/img/analytics.png"}
+              %td.category-name
+                %a
+                  Оценка удовлетворенности
+        %li
+          %table.menu-item
+            %tr
+              %td.category-icon
+                %a
+                  %img{src: "/img/analytics.png"}
+              %td.category-name
+                %a
+                  Оценка удовлетворенности
+        %li
+          %table.menu-item
+            %tr
+              %td.category-icon
+                %a
+                  %img{src: "/img/analytics.png"}
+              %td.category-name
+                %a
+                  Оценка удовлетворенности
+        %li
+          %table.menu-item
+            %tr
+              %td.category-icon
+                %a
+                  %img{src: "/img/analytics.png"}
+              %td.category-name
+                %a
+                  Оценка удовлетворенности
+  .right-arrow
