@@ -258,6 +258,122 @@
     text-align: right;
     padding: 0 15px; }
 
+@font-face {
+  font-family: 'Foundary Monoline OT3 ExtraBold';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-ExtraBold.otf"); }
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Bold';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Bold.otf"); }
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Medium';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Medium.otf"); }
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Regular';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Black';
+  src: url("../../fonts/GothamPro/GothaProBla.otf"); }
+
+@font-face {
+  font-family: 'GothamPro BlackItalic';
+  src: url("../../fonts/GothamPro/GothaProBlaIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Bold';
+  src: url("../../fonts/GothamPro/GothaProBol.otf"); }
+
+@font-face {
+  font-family: 'GothamPro BoldItalic';
+  src: url("../../fonts/GothamPro/GothaProBolIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Italic';
+  src: url("../../fonts/GothamPro/GothaProIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Light';
+  src: url("../../fonts/GothamPro/GothaProLig.otf"); }
+
+@font-face {
+  font-family: 'GothamPro LightItalic';
+  src: url("../../fonts/GothamPro/GothaProLigIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Medium';
+  src: url("../../fonts/GothamPro/GothaProMed.otf"); }
+
+@font-face {
+  font-family: 'GothamPro MediumItalic';
+  src: url("../../fonts/GothamPro/GothaProMedIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro NarrowBold';
+  src: url("../../fonts/GothamPro/GothaProNarBol.otf"); }
+
+@font-face {
+  font-family: 'GothamPro NarrowMedium';
+  src: url("../../fonts/GothamPro/GothaProNarMed.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Regular';
+  src: url("../../fonts/GothamPro/GothaProReg.otf"); }
+
+.yellow-text {
+  color: #ffc838; }
+
+.center {
+  margin: 0 auto;
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.simple-slider .arrow, .simple-slider .left-arrow, .simple-slider .right-arrow {
+  height: 37px;
+  width: 21px;
+  float: left;
+  cursor: pointer;
+  margin: 10px 0; }
+.simple-slider .left-arrow {
+  background: url("../../img/arrow-left.png"); }
+.simple-slider .right-arrow {
+  background: url("../../img/arrow-right.png"); }
+.simple-slider .slider-items-container {
+  padding: 5px 50px;
+  float: left;
+  width: 1500px; }
+.simple-slider .slider-items-wrapper {
+  overflow: hidden; }
+.simple-slider .slider-items {
+  height: 48px;
+  padding: 0;
+  position: relative;
+  width: 2000px; }
+  .simple-slider .slider-items li {
+    list-style: none;
+    float: left;
+    max-width: 100%; }
+.simple-slider .slider-item {
+  cursor: pointer;
+  width: 200px; }
+.simple-slider .item-icon {
+  height: 45px;
+  width: 45px; }
+  .simple-slider .item-icon a {
+    text-decoration: none; }
+.simple-slider .item-name {
+  padding: 0 15px; }
+  .simple-slider .item-name a {
+    text-decoration: none;
+    color: #FFFFFF; }
+    .simple-slider .item-name a:hover {
+      text-decoration: none;
+      color: #FFFFFF; }
+
 .header {
   background: #ffc838;
   height: 940px;
@@ -372,48 +488,10 @@
   background-color: #4b4b4d;
   border-radius: 0;
   padding: 30px 134px;
-  font-size: 1.1em; }
-  .categories-navbar .arrow, .categories-navbar .left-arrow, .categories-navbar .right-arrow {
-    height: 37px;
-    width: 21px;
-    float: left;
-    cursor: pointer;
-    margin: 10px 0; }
-  .categories-navbar .left-arrow {
-    background: url("../../img/arrow-left.png"); }
-  .categories-navbar .right-arrow {
-    background: url("../../img/arrow-right.png"); }
-  .categories-navbar .menu-items-container {
-    padding: 5px 50px;
-    float: left;
+  font-size: 1.1em;
+  margin-bottom: 70px; }
+  .categories-navbar .slider-items-container {
     width: 1500px; }
-  .categories-navbar .menu-items-wrapper {
-    overflow: hidden; }
-  .categories-navbar .menu-items {
-    height: 48px;
-    padding: 0;
-    position: relative;
-    width: 2000px; }
-    .categories-navbar .menu-items li {
-      list-style: none;
-      float: left;
-      max-width: 100%; }
-  .categories-navbar .menu-item {
-    cursor: pointer;
-    width: 200px; }
-  .categories-navbar .category-icon {
-    height: 45px;
-    width: 45px; }
-    .categories-navbar .category-icon a {
-      text-decoration: none; }
-  .categories-navbar .category-name {
-    padding: 0 15px; }
-    .categories-navbar .category-name a {
-      text-decoration: none;
-      color: #FFFFFF; }
-      .categories-navbar .category-name a:hover {
-        text-decoration: none;
-        color: #FFFFFF; }
 
 @font-face {
   font-family: 'Foundary Monoline OT3 ExtraBold';
@@ -727,3 +805,25 @@ body {
     font-family: "Foundary Monoline OT3 ExtraBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 5em;
     letter-spacing: -.04em; }
+  .main-block .logos-line {
+    height: 80px;
+    border-radius: 0;
+    margin: 70px auto;
+    font-size: 1.1em; }
+    .main-block .logos-line .left-arrow {
+      background: url("../../img/arrow-left-yellow.png");
+      height: 35px;
+      width: 19px; }
+    .main-block .logos-line .right-arrow {
+      background: url("../../img/arrow-right-yellow.png");
+      height: 35px;
+      width: 19px; }
+    .main-block .logos-line .slider-items-container {
+      width: 1000px; }
+      .main-block .logos-line .slider-items-container .slider-item {
+        width: 180px; }
+      .main-block .logos-line .slider-items-container .item-name {
+        text-align: left;
+        font-family: "Foundary Monoline OT3 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1.5em;
+        color: #5c513d; }

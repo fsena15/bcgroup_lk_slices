@@ -291,4 +291,40 @@ body {
       letter-spacing: -.04em;
     }
   }
+
+  .logos-line {
+    height: 80px;
+    border-radius: 0;
+    margin: 70px auto;
+    font-size: 1.1em;
+
+    .left-arrow {
+      background: url("../../img/arrow-left-yellow.png");
+      height: 35px;
+      width: 19px;
+    }
+
+    .right-arrow {
+      background: url("../../img/arrow-right-yellow.png");
+      height: 35px;
+      width: 19px;
+    }
+
+    .slider-items-container {
+      width: 1000px;
+
+      .slider-item {
+        width: 180px;
+      }
+
+      .item-name {
+        text-align: left;
+        font-family: $font-fmOT3-bold;
+        font-size: 1.5em;
+        color: $color-header;
+      }
+    }
+
+  }
+
 }

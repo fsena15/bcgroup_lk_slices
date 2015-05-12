@@ -1,0 +1,72 @@
+@import "common";
+
+.simple-slider {
+  .arrow {
+    height: 37px;
+    width: 21px;
+    float: left;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+
+  .left-arrow {
+    background: url("../../img/arrow-left.png");
+    @extend .arrow;
+  }
+
+  .right-arrow {
+    background: url("../../img/arrow-right.png");
+    @extend .arrow;
+  }
+
+  .slider-items-container {
+    padding: 5px 50px;
+    float: left;
+    width: 1500px;
+  }
+
+  .slider-items-wrapper {
+    overflow: hidden;
+  }
+
+  .slider-items {
+    height: 48px;
+    padding: 0;
+    position: relative;
+    width: 2000px;
+
+    li {
+      list-style: none;
+      float: left;
+      max-width: 100%;
+    }
+  }
+
+  .slider-item {
+    cursor: pointer;
+    width: 200px;
+  }
+
+  .item-icon {
+    height: 45px;
+    width: 45px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .item-name {
+    padding: 0 15px;
+
+    a {
+      text-decoration: none;
+      color: #FFFFFF;
+
+      &:hover {
+        text-decoration: none;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
