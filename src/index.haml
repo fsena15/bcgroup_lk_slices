@@ -94,6 +94,7 @@
               %a.link
                 Личном кабинете
           .clearfix
+
         .projects
           .head
             Более 1000
@@ -162,5 +163,71 @@
                         %td.item-name
                           Примеры работ
             .right-arrow
+
+          .company-comments
+            %ul.comments-slider
+              %li.comment
+                .comment-image
+                  %img{src: "/img/airplane.png"}
+                .comment-text
+                  .title
+                    Сбербанк
+                  .body
+                    Некоторый текст Некоторый текст Некоторый текст Некоторый текст Некоторый текст
+                    Некоторый текст Некоторый текст Некоторый текст Некоторый текст Некоторый текст
+                  .author
+                    .full-name
+                      Татьяна Рамзина
+                    .job-position
+                      начальник рекламного отдела
+                  .results
+                    %a{href: ""}
+                      .icon.pull-left
+                      Результат
+              %li.comment
+                .comment-image
+                  %img{src: "/img/airplane.png"}
+                .comment-text
+                  .title
+                    Сбербанк
+                  .body
+                    Некоторый текст Некоторый текст Некоторый текст Некоторый текст Некоторый текст
+                    Некоторый текст Некоторый текст Некоторый текст Некоторый текст Некоторый текст
+                  .author
+                    .full-name
+                      Татьяна Рамзина
+                    .job-position
+                      начальник рекламного отдела
+                  .results
+                    %a{href: ""}
+                      .icon.pull-left
+                      Результат
+            .clearfix
+
+      .content.news-voting
+        .main-block.center
+          .row
+            .col-sm-6
+              .row.title-row
+                .title-icon
+                  .bordered
+                    %img{src: "/img/news.png", height: "38", width: "30"}
+                .title
+                  Новости
+              .row.content-row
+                .col-sm-12.top-yellow
+                  news 1
+                .col-sm-12.top-yellow
+                  news 2
+            .col-sm-6
+              .row.title-row
+                .title-icon
+                  .bordered
+                    %img{src: "/img/votes.png", height: "38", width: "30"}
+                .title
+                  Голосование
+              .row.content-row
+                .col-sm-12.top-yellow
+                  voting text
 
     //= template/footer.haml

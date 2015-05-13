@@ -7,6 +7,9 @@
  */
 //= ../../bower_components/jquery/dist/jquery.js
 //= ../../bower_components/bootstrap/dist/js/bootstrap.js
+//= ../../bower_components/bxslider-4/dist/vendor/jquery.easing.1.3.js
+//= ../../bower_components/bxslider-4/dist/vendor/jquery.fitvids.js
+//= ../../bower_components/bxslider-4/dist/jquery.bxslider.js
 
 /*
  * Custom

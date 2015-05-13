@@ -15,6 +15,7 @@
   "dependencies": {
     "normalize.css": "*",
     "jquery": "1.*",
-    "bootstrap": "3.*"
+    "bootstrap": "3.*",
+    "bxslider-4": "git@github.com:stevenwanderski/bxslider-4.git#4.2.3"
   }
 }

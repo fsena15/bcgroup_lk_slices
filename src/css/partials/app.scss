@@ -42,9 +42,7 @@ body {
     }
 
     .link {
-      color: #40A4D3;
       margin: 0 5px;
-      cursor: pointer;
     }
 
     .link:not(:hover) {
@@ -311,10 +309,10 @@ body {
     }
 
     .slider-items-container {
-      width: 1000px;
+      width: 1015px;
 
       .slider-item {
-        width: 180px;
+        width: 185px;
       }
 
       .item-name {
@@ -327,4 +325,105 @@ body {
 
   }
 
+  .company-comments {
+    width: 915px;
+    margin: 0 auto 145px;
+
+    .bx-wrapper {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      .bx-pager.bx-default-pager {
+        .bx-pager-link {
+          background: #948269;
+          &.active {
+            background: $color-header;
+          }
+        }
+      }
+    }
+
+
+    .comment-text {
+      text-align: left;
+
+      .title {
+        font-size: 1.5em;
+        margin-bottom: 17px;
+        font-family: $font-fmOT3-bold;
+        color: $color-header;
+      }
+
+      .body {
+        margin: 21px 0;
+        font-size: 0.8em;
+        line-height: 1.5em;
+      }
+
+      .author {
+        margin-top: 51px;
+
+        .full-name {
+          font-family: $font-fmOT3-bold;
+          font-size: 0.8em;
+          color: $color-header;
+          margin: 12px 0;
+        }
+
+        .job-position {
+          font-size: 0.7em;
+        }
+      }
+
+      .results {
+        margin: 12px 0;
+        font-size: 0.8em;
+
+        .icon {
+          height: 18px;
+          width: 18px;
+          margin: 0 3px 0 8px;
+        }
+      }
+    }
+
+    .comment-image {
+      float: right;
+      height: 271px;
+    }
+  }
+
+}
+
+
+.news-voting {
+  background-color: #f4f4f4;
+  color: $color-text;
+
+  .title-row {
+    margin-bottom: 48px;
+
+    .title-icon {
+      height: 76px;
+      width: 60px;
+      margin: 0 auto;
+
+      .bordered {
+        height: 100%;
+        padding: 15px 8px;
+      }
+
+    }
+
+    .title {
+      margin-top: 29px;
+      text-transform: uppercase;
+      font-size: 1.2em;
+    }
+  }
+
+  .content-row {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }

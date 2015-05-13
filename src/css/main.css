@@ -4,6 +4,7 @@
 @import url(../../bower_components/normalize.css/normalize.css);
 @import url(../../bower_components/bootstrap/dist/css/bootstrap.css);
 @import url(../../bower_components/bootstrap/dist/css/bootstrap-theme.css);
+@import url(../../bower_components/bxslider-4/dist/jquery.bxslider.css);
 /*
 * Custom
 */
@@ -81,78 +82,18 @@
 .text-left {
   text-align: left; }
 
-@font-face {
-  font-family: 'Foundary Monoline OT3 ExtraBold';
-  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-ExtraBold.otf"); }
+a {
+  cursor: pointer;
+  color: #40a4d3; }
 
-@font-face {
-  font-family: 'Foundary Monoline OT3 Bold';
-  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Bold.otf"); }
-
-@font-face {
-  font-family: 'Foundary Monoline OT3 Medium';
-  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Medium.otf"); }
-
-@font-face {
-  font-family: 'Foundary Monoline OT3 Regular';
-  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.otf"); }
-
-@font-face {
-  font-family: 'GothamPro Black';
-  src: url("../../fonts/GothamPro/GothaProBla.otf"); }
-
-@font-face {
-  font-family: 'GothamPro BlackItalic';
-  src: url("../../fonts/GothamPro/GothaProBlaIta.otf"); }
-
-@font-face {
-  font-family: 'GothamPro Bold';
-  src: url("../../fonts/GothamPro/GothaProBol.otf"); }
-
-@font-face {
-  font-family: 'GothamPro BoldItalic';
-  src: url("../../fonts/GothamPro/GothaProBolIta.otf"); }
-
-@font-face {
-  font-family: 'GothamPro Italic';
-  src: url("../../fonts/GothamPro/GothaProIta.otf"); }
-
-@font-face {
-  font-family: 'GothamPro Light';
-  src: url("../../fonts/GothamPro/GothaProLig.otf"); }
-
-@font-face {
-  font-family: 'GothamPro LightItalic';
-  src: url("../../fonts/GothamPro/GothaProLigIta.otf"); }
-
-@font-face {
-  font-family: 'GothamPro Medium';
-  src: url("../../fonts/GothamPro/GothaProMed.otf"); }
-
-@font-face {
-  font-family: 'GothamPro MediumItalic';
-  src: url("../../fonts/GothamPro/GothaProMedIta.otf"); }
-
-@font-face {
-  font-family: 'GothamPro NarrowBold';
-  src: url("../../fonts/GothamPro/GothaProNarBol.otf"); }
-
-@font-face {
-  font-family: 'GothamPro NarrowMedium';
-  src: url("../../fonts/GothamPro/GothaProNarMed.otf"); }
-
-@font-face {
-  font-family: 'GothamPro Regular';
-  src: url("../../fonts/GothamPro/GothaProReg.otf"); }
-
-.yellow-text {
-  color: #ffc838; }
-
-.center {
-  margin: 0 auto;
-  text-align: center; }
-
-.text-left {
+.top-yellow {
+  background-color: #FFFFFF;
+  border-top: 5px solid #ffc838;
+  border-bottom: 2px solid #ededed;
+  border-left: 1px solid #fcfcfc;
+  border-right: 1px solid #fcfcfc;
+  margin-bottom: 17px;
+  padding: 27px 30px 45px;
   text-align: left; }
 
 @font-face {
@@ -227,6 +168,108 @@
   text-align: center; }
 
 .text-left {
+  text-align: left; }
+
+a {
+  cursor: pointer;
+  color: #40a4d3; }
+
+.top-yellow {
+  background-color: #FFFFFF;
+  border-top: 5px solid #ffc838;
+  border-bottom: 2px solid #ededed;
+  border-left: 1px solid #fcfcfc;
+  border-right: 1px solid #fcfcfc;
+  margin-bottom: 17px;
+  padding: 27px 30px 45px;
+  text-align: left; }
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 ExtraBold';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-ExtraBold.otf"); }
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Bold';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Bold.otf"); }
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Medium';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Medium.otf"); }
+
+@font-face {
+  font-family: 'Foundary Monoline OT3 Regular';
+  src: url("../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Black';
+  src: url("../../fonts/GothamPro/GothaProBla.otf"); }
+
+@font-face {
+  font-family: 'GothamPro BlackItalic';
+  src: url("../../fonts/GothamPro/GothaProBlaIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Bold';
+  src: url("../../fonts/GothamPro/GothaProBol.otf"); }
+
+@font-face {
+  font-family: 'GothamPro BoldItalic';
+  src: url("../../fonts/GothamPro/GothaProBolIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Italic';
+  src: url("../../fonts/GothamPro/GothaProIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Light';
+  src: url("../../fonts/GothamPro/GothaProLig.otf"); }
+
+@font-face {
+  font-family: 'GothamPro LightItalic';
+  src: url("../../fonts/GothamPro/GothaProLigIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Medium';
+  src: url("../../fonts/GothamPro/GothaProMed.otf"); }
+
+@font-face {
+  font-family: 'GothamPro MediumItalic';
+  src: url("../../fonts/GothamPro/GothaProMedIta.otf"); }
+
+@font-face {
+  font-family: 'GothamPro NarrowBold';
+  src: url("../../fonts/GothamPro/GothaProNarBol.otf"); }
+
+@font-face {
+  font-family: 'GothamPro NarrowMedium';
+  src: url("../../fonts/GothamPro/GothaProNarMed.otf"); }
+
+@font-face {
+  font-family: 'GothamPro Regular';
+  src: url("../../fonts/GothamPro/GothaProReg.otf"); }
+
+.yellow-text {
+  color: #ffc838; }
+
+.center {
+  margin: 0 auto;
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+a {
+  cursor: pointer;
+  color: #40a4d3; }
+
+.top-yellow {
+  background-color: #FFFFFF;
+  border-top: 5px solid #ffc838;
+  border-bottom: 2px solid #ededed;
+  border-left: 1px solid #fcfcfc;
+  border-right: 1px solid #fcfcfc;
+  margin-bottom: 17px;
+  padding: 27px 30px 45px;
   text-align: left; }
 
 .right-quick-menu {
@@ -330,6 +373,20 @@
   text-align: center; }
 
 .text-left {
+  text-align: left; }
+
+a {
+  cursor: pointer;
+  color: #40a4d3; }
+
+.top-yellow {
+  background-color: #FFFFFF;
+  border-top: 5px solid #ffc838;
+  border-bottom: 2px solid #ededed;
+  border-left: 1px solid #fcfcfc;
+  border-right: 1px solid #fcfcfc;
+  margin-bottom: 17px;
+  padding: 27px 30px 45px;
   text-align: left; }
 
 .simple-slider .arrow, .simple-slider .left-arrow, .simple-slider .right-arrow {
@@ -567,6 +624,20 @@
 .text-left {
   text-align: left; }
 
+a {
+  cursor: pointer;
+  color: #40a4d3; }
+
+.top-yellow {
+  background-color: #FFFFFF;
+  border-top: 5px solid #ffc838;
+  border-bottom: 2px solid #ededed;
+  border-left: 1px solid #fcfcfc;
+  border-right: 1px solid #fcfcfc;
+  margin-bottom: 17px;
+  padding: 27px 30px 45px;
+  text-align: left; }
+
 .footer {
   background: #666054;
   font-family: "Foundary Monoline OT3 Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -631,9 +702,7 @@ body {
       padding-top: 5px;
       line-height: 1; }
     .main-block .common-statistics .link {
-      color: #40A4D3;
-      margin: 0 5px;
-      cursor: pointer; }
+      margin: 0 5px; }
     .main-block .common-statistics .link:not(:hover) {
       background: url("../../img/link_line.png") repeat-x 0 3px; }
     .main-block .common-statistics .link:hover {
@@ -819,11 +888,72 @@ body {
       height: 35px;
       width: 19px; }
     .main-block .logos-line .slider-items-container {
-      width: 1000px; }
+      width: 1015px; }
       .main-block .logos-line .slider-items-container .slider-item {
-        width: 180px; }
+        width: 185px; }
       .main-block .logos-line .slider-items-container .item-name {
         text-align: left;
         font-family: "Foundary Monoline OT3 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 1.5em;
         color: #5c513d; }
+  .main-block .company-comments {
+    width: 915px;
+    margin: 0 auto 145px; }
+    .main-block .company-comments .bx-wrapper {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+      .main-block .company-comments .bx-wrapper .bx-pager.bx-default-pager .bx-pager-link {
+        background: #948269; }
+        .main-block .company-comments .bx-wrapper .bx-pager.bx-default-pager .bx-pager-link.active {
+          background: #5c513d; }
+    .main-block .company-comments .comment-text {
+      text-align: left; }
+      .main-block .company-comments .comment-text .title {
+        font-size: 1.5em;
+        margin-bottom: 17px;
+        font-family: "Foundary Monoline OT3 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #5c513d; }
+      .main-block .company-comments .comment-text .body {
+        margin: 21px 0;
+        font-size: 0.8em;
+        line-height: 1.5em; }
+      .main-block .company-comments .comment-text .author {
+        margin-top: 51px; }
+        .main-block .company-comments .comment-text .author .full-name {
+          font-family: "Foundary Monoline OT3 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 0.8em;
+          color: #5c513d;
+          margin: 12px 0; }
+        .main-block .company-comments .comment-text .author .job-position {
+          font-size: 0.7em; }
+      .main-block .company-comments .comment-text .results {
+        margin: 12px 0;
+        font-size: 0.8em; }
+        .main-block .company-comments .comment-text .results .icon {
+          height: 18px;
+          width: 18px;
+          margin: 0 3px 0 8px; }
+    .main-block .company-comments .comment-image {
+      float: right;
+      height: 271px; }
+
+.news-voting {
+  background-color: #f4f4f4;
+  color: #95806b; }
+  .news-voting .title-row {
+    margin-bottom: 48px; }
+    .news-voting .title-row .title-icon {
+      height: 76px;
+      width: 60px;
+      margin: 0 auto; }
+      .news-voting .title-row .title-icon .bordered {
+        height: 100%;
+        padding: 15px 8px; }
+    .news-voting .title-row .title {
+      margin-top: 29px;
+      text-transform: uppercase;
+      font-size: 1.2em; }
+  .news-voting .content-row {
+    margin-left: 20px;
+    margin-right: 20px; }

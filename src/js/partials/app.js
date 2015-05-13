@@ -31,7 +31,7 @@ $(function () {
         }
     });
 
-    var sliderItemWidth = 180,
+    var sliderItemWidth = 185,
         $sliderItemsList = $('.logos-line .slider-items'),
         sliderItemsCount = $sliderItemsList.find('> li').size(),
         sliderTrigger = false;
@@ -67,5 +67,10 @@ $(function () {
         } else {
             $('.right-quick-menu').removeClass('dark');
         }
+    });
+
+    // comments slider
+    $('.comments-slider').bxSlider({
+        auto: true
     });
 });
