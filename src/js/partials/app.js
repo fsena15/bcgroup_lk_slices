@@ -73,4 +73,7 @@ $(function () {
     $('.comments-slider').bxSlider({
         auto: true
     });
+
+    //voting / news
+    $('.vote').height($('.news').height() - (17 + 5 + 2) * 4);
 });

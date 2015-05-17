@@ -941,6 +941,8 @@ body {
 .news-voting {
   background-color: #f4f4f4;
   color: #95806b; }
+  .news-voting .main-block {
+    padding: 0 20px; }
   .news-voting .title-row {
     margin-bottom: 48px; }
     .news-voting .title-row .title-icon {

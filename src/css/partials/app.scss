@@ -400,6 +400,10 @@ body {
   background-color: #f4f4f4;
   color: $color-text;
 
+  .main-block {
+    padding: 0 20px;
+  }
+
   .title-row {
     margin-bottom: 48px;
 
@@ -426,4 +430,5 @@ body {
     margin-left: 20px;
     margin-right: 20px;
   }
+
 }

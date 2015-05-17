@@ -214,11 +214,6 @@
                     %img{src: "/img/news.png", height: "38", width: "30"}
                 .title
                   Новости
-              .row.content-row
-                .col-sm-12.top-yellow
-                  news 1
-                .col-sm-12.top-yellow
-                  news 2
             .col-sm-6
               .row.title-row
                 .title-icon
@@ -226,8 +221,18 @@
                     %img{src: "/img/votes.png", height: "38", width: "30"}
                 .title
                   Голосование
-              .row.content-row
+          .row
+            .col-sm-6
+              .row.content-row.news
                 .col-sm-12.top-yellow
+                  news 1
+                .col-sm-12.top-yellow
+                  news 2
+                .col-sm-12.top-yellow
+                  news 2
+            .col-sm-6
+              .row.content-row
+                .col-sm-12.top-yellow.vote
                   voting text
 
     //= template/footer.haml
