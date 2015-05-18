@@ -205,6 +205,7 @@
             .clearfix
 
       .content.news-voting
+        .corner-down.center
         .main-block.center
           .row
             .col-sm-6
@@ -221,18 +222,69 @@
                     %img{src: "/img/votes.png", height: "38", width: "30"}
                 .title
                   Голосование
+          .row.navigation
+            .col-sm-6
+              %a
+                .navigation-up.center
+            .col-sm-6
           .row
             .col-sm-6
               .row.content-row.news
-                .col-sm-12.top-yellow
-                  news 1
-                .col-sm-12.top-yellow
-                  news 2
-                .col-sm-12.top-yellow
-                  news 2
+                .news-wrapper
+                  .col-sm-12.top-yellow
+                    .title
+                      11.11.2014
+                    .body
+                      Эксперт BCGroup дал комментарий на Сейчас.ру о падении показателей зарубежных компаний.
+                  .col-sm-12.top-yellow
+                    .title
+                      10.11.2014
+                    .body
+                      news 2
+                  .col-sm-12.top-yellow
+                    .title
+                      9.11.2014
+                    .body
+                      news 3
+                  .col-sm-12.top-yellow
+                    .title
+                      9.11.2014
+                    .body
+                      news 4
             .col-sm-6
               .row.content-row
                 .col-sm-12.top-yellow.vote
-                  voting text
+                  %form
+                    .body
+                      Какой из предложенных вариантов более предпочтителен в условиях экономического кризиса, развивающегося на территории Российской Федерации с начала 2014 года?
+                    .answers
+                      .answer
+                        %input{type: "radio", name: "voting1"}
+                        sss
+                      .answer
+                        %input{type: "radio", name: "voting1"}
+                        sss
+                      .answer
+                        %input{type: "radio", name: "voting1"}
+                        sss
+                      .answer
+                        %input{type: "radio", name: "voting1"}
+                        sss
+                      .answer
+                        %input{type: "radio", name: "voting1"}
+                        sss
+                      .answer
+                        %input{type: "radio", name: "voting1"}
+                        sss
+                    .buttons
+                      %button.btn.button-main
+                        Голосовать
+                      %button.btn.button-additional
+                        Результаты
+          .row.navigation
+            .col-sm-6
+              %a
+                .navigation-down.center
+            .col-sm-6
 
     //= template/footer.haml

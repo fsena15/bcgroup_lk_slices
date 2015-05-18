@@ -179,7 +179,8 @@ $height-pages-navbar: 120px;
   margin-bottom: 70px;
 
   .slider-items-container {
-    width: 1500px;
+    width: 95%;
+    min-width: 1000px;
   }
 
 }

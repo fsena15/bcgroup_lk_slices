@@ -10,6 +10,7 @@
 //= ../../bower_components/bxslider-4/dist/vendor/jquery.easing.1.3.js
 //= ../../bower_components/bxslider-4/dist/vendor/jquery.fitvids.js
 //= ../../bower_components/bxslider-4/dist/jquery.bxslider.js
+//= ../../bower_components/jQueryFormStyler/jquery.formstyler.js
 
 /*
  * Custom

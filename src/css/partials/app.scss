@@ -5,6 +5,7 @@
 body {
   font-family: $font-fmOT3-medium;
   font-size: 14px;
+  min-width: 1400px;
 }
 
 .f-m-extra-bold {
@@ -399,9 +400,38 @@ body {
 .news-voting {
   background-color: #f4f4f4;
   color: $color-text;
+  border-top: 1px solid #f9f9f9;
+  padding-bottom: 92px;
+
+  .corner-down {
+    background: url("../../img/corner-down.png");
+    height: 20px;
+    width: 42px;
+    margin-top: -1px;
+    margin-bottom: 52px;
+  }
 
   .main-block {
     padding: 0 20px;
+    margin-bottom: 10px;
+
+    .navigation {
+      padding: 5px 0;
+    }
+
+    .navigation-down {
+      background: url("../../img/arrow-down.png");
+      height: 14px;
+      width: 25px;
+      margin-bottom: 18px;
+    }
+
+    .navigation-up {
+      background: url("../../img/arrow-up.png");
+      height: 14px;
+      width: 25px;
+      margin-bottom: 18px;
+    }
   }
 
   .title-row {
@@ -429,6 +459,76 @@ body {
   .content-row {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .top-yellow {
+    .title {
+      color: $color-yellow;
+      font-size: 1em;
+      margin-bottom: 19px;
+    }
+
+    .body {
+      line-height: 1.5em;
+    }
+
+    .btn {
+      border-radius: 0;
+      border: 0;
+      margin-right: 12px;
+      padding: 3px 12px;
+
+      &:focus {
+        border: 0;
+        border-radius: 0;
+      }
+    }
+
+    .answers {
+      margin-top: 32px;
+      margin-bottom: 40px;
+    }
+
+    .answer {
+      margin: 15px 0;
+
+      .jq-radio {
+        margin-right: 12px;
+        height: 8px;
+        width: 9px;
+        background: #FFFFFF url("../../img/checkbox-unchecked.png");
+        border: 0;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+
+        &.checked .jq-radio__div {
+          background: $color-yellow url("../../img/checkbox-unchecked.png");
+          margin: 0;
+          border: 0;
+          height: 8px;
+          width: 9px;
+          border-radius: 0;
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+        }
+      }
+    }
+
+    .buttons {
+    }
+
+    .button-main {
+      background-color: $color-yellow;
+      color: #FFFFFF;
+    }
+
+    .button-additional {
+      background-color: #938169;
+      color: #FFFFFF;
+    }
   }
 
 }

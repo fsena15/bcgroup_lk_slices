@@ -2,6 +2,8 @@
  * Created by shnell on 16.04.15.
  */
 $(function () {
+    $('input, select').styler();
+
     // categories menu
     var menuItemWidth = 200,
         $menuItemsList = $('.categories-navbar .slider-items'),
@@ -76,4 +78,5 @@ $(function () {
 
     //voting / news
     $('.vote').height($('.news').height() - (17 + 5 + 2) * 4);
+    $('.news-wrapper').height($('.vote').height());
 });
