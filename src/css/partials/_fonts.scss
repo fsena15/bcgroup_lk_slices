@@ -1,5 +1,9 @@
 @import "constants";
 
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption&subset=cyrillic,cyrillic-ext,latin,latin-ext);
+
+$font-pt-sans-caption: 'PT Sans Caption', sans-serif;
+
 @font-face {
   font-family: 'Foundary Monoline OT3 ExtraBold';
   src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-ExtraBold.otf');
@@ -24,7 +28,6 @@ $font-fmOT3-ex-bold: 'Foundary Monoline OT3 ExtraBold', $font-stack;
 $font-fmOT3-bold: 'Foundary Monoline OT3 Bold', $font-stack;
 $font-fmOT3-medium: 'Foundary Monoline OT3 Medium', $font-stack;
 $font-fmOT3-regular: 'Foundary Monoline OT3 Regular', $font-stack;
-
 
 @font-face {
   font-family: 'GothamPro Black';
