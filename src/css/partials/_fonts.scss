@@ -5,99 +5,147 @@
 $font-pt-sans-caption: 'PT Sans Caption', sans-serif;
 
 @font-face {
-  font-family: 'Foundary Monoline OT3 ExtraBold';
-  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-ExtraBold.otf');
+  font-family: 'FoundryMonolineOT3-ExtraBold';
+  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-ExtraBold.eot?#iefix') format('embedded-opentype'),  url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-ExtraBold.otf')  format('opentype'),
+  url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-ExtraBold.woff') format('woff'), url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-ExtraBold.ttf')  format('truetype'), url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-ExtraBold.svg#FoundryMonolineOT3-ExtraBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Foundary Monoline OT3 Bold';
-  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Bold.otf');
+  font-family: 'FoundryMonolineOT3-Bold';
+  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Bold.eot?#iefix') format('embedded-opentype'),  url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Bold.otf')  format('opentype'),
+  url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Bold.woff') format('woff'), url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Bold.ttf')  format('truetype'), url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Bold.svg#FoundryMonolineOT3-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Foundary Monoline OT3 Medium';
-  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Medium.otf');
+  font-family: 'FoundryMonolineOT3-Medium';
+  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Medium.eot?#iefix') format('embedded-opentype'),  url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Medium.otf')  format('opentype'),
+  url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Medium.woff') format('woff'), url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Medium.ttf')  format('truetype'), url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Medium.svg#FoundryMonolineOT3-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Foundary Monoline OT3 Regular';
-  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.otf');
+  font-family: 'FoundryMonolineOT3-Regular';
+  src: url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.eot?#iefix') format('embedded-opentype'),  url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.otf')  format('opentype'),
+  url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.woff') format('woff'), url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.ttf')  format('truetype'), url('../../fonts/Foundry Monoline OT3/FoundryMonolineOT3-Regular.svg#FoundryMonolineOT3-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-$font-fmOT3-ex-bold: 'Foundary Monoline OT3 ExtraBold', $font-stack;
-$font-fmOT3-bold: 'Foundary Monoline OT3 Bold', $font-stack;
-$font-fmOT3-medium: 'Foundary Monoline OT3 Medium', $font-stack;
-$font-fmOT3-regular: 'Foundary Monoline OT3 Regular', $font-stack;
+$font-fmOT3-ex-bold: 'FoundryMonolineOT3-ExtraBold', $font-stack;
+$font-fmOT3-bold: 'FoundryMonolineOT3-Bold', $font-stack;
+$font-fmOT3-medium: 'FoundryMonolineOT3-Medium', $font-stack;
+$font-fmOT3-regular: 'FoundryMonolineOT3-Regular', $font-stack;
 
 @font-face {
-  font-family: 'GothamPro Black';
-  src: url('../../fonts/GothamPro/GothaProBla.otf');
-}
-
-@font-face {
-  font-family: 'GothamPro BlackItalic';
-  src: url('../../fonts/GothamPro/GothaProBlaIta.otf');
-}
-
-@font-face {
-  font-family: 'GothamPro Bold';
-  src: url('../../fonts/GothamPro/GothaProBol.otf');
+  font-family: 'GothamPro';
+  src: url('../../fonts/GothamPro/GothamPro.eot?#iefix') format('embedded-opentype'),  url('../../fonts/GothamPro/GothamPro.otf')  format('opentype'),
+  url('../../fonts/GothamPro/GothamPro.woff') format('woff'), url('../../fonts/GothamPro/GothamPro.ttf')  format('truetype'), url('../../fonts/GothamPro/GothamPro.svg#GothamPro') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'GothamPro BoldItalic';
-  src: url('../../fonts/GothamPro/GothaProBolIta.otf');
+  font-family: 'GothamProNarrow-Medium';
+  src: url('../../fonts/GothamPro/GothamProNarrow-Medium.eot?#iefix') format('embedded-opentype'),  url('../../fonts/GothamPro/GothamProNarrow-Medium.otf')  format('opentype'),
+  url('../../fonts/GothamPro/GothamProNarrow-Medium.woff') format('woff'), url('../../fonts/GothamPro/GothamProNarrow-Medium.ttf')  format('truetype'), url('../../fonts/GothamPro/GothamProNarrow-Medium.svg#GothamProNarrow-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'GothamPro Italic';
-  src: url('../../fonts/GothamPro/GothaProIta.otf');
+  font-family: 'GothamProNarrow-Bold';
+  src: url('../../fonts/GothamPro/GothamProNarrow-Bold.eot?#iefix') format('embedded-opentype'),  url('../../fonts/GothamPro/GothamProNarrow-Bold.otf')  format('opentype'),
+  url('../../fonts/GothamPro/GothamProNarrow-Bold.woff') format('woff'), url('../../fonts/GothamPro/GothamProNarrow-Bold.ttf')  format('truetype'), url('../../fonts/GothamPro/GothamProNarrow-Bold.svg#GothamProNarrow-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'GothamPro Light';
-  src: url('../../fonts/GothamPro/GothaProLig.otf');
+  font-family: 'GothamPro-MediumItalic';
+  src: url('../../fonts/GothamPro/GothamPro-MediumItalic.eot?#iefix') format('embedded-opentype'),  url('../../fonts/GothamPro/GothamPro-MediumItalic.otf')  format('opentype'),
+  url('../../fonts/GothamPro/GothamPro-MediumItalic.woff') format('woff'), url('../../fonts/GothamPro/GothamPro-MediumItalic.ttf')  format('truetype'), url('../../fonts/GothamPro/GothamPro-MediumItalic.svg#GothamPro-MediumItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'GothamPro LightItalic';
-  src: url('../../fonts/GothamPro/GothaProLigIta.otf');
+  font-family: 'GothamPro-Medium';
+  src: url('../../fonts/GothamPro/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),  url('../../fonts/GothamPro/GothamPro-Medium.otf')  format('opentype'),
+  url('../../fonts/GothamPro/GothamPro-Medium.woff') format('woff'), url('../../fonts/GothamPro/GothamPro-Medium.ttf')  format('truetype'), url('../../fonts/GothamPro/GothamPro-Medium.svg#GothamPro-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'GothamPro Medium';
-  src: url('../../fonts/GothamPro/GothaProMed.otf');
+  font-family: 'GothamPro-LightItalic';
+  src: url('../../fonts/GothamPro/GothamPro-LightItalic.eot?#iefix') format('embedded-opentype'),  url('../../fonts/GothamPro/GothamPro-LightItalic.otf')  format('opentype'),
+  url('../../fonts/GothamPro/GothamPro-LightItalic.woff') format('woff'), url('../../fonts/GothamPro/GothamPro-LightItalic.ttf')  format('truetype'), url('../../fonts/GothamPro/GothamPro-LightItalic.svg#GothamPro-LightItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'GothamPro MediumItalic';
-  src: url('../../fonts/GothamPro/GothaProMedIta.otf');
+  font-family: 'GothamPro-Light';
+  src: url('../../fonts/GothamPro/GothamPro-Light.eot?#iefix') format('embedded-opentype'),  url('../../fonts/GothamPro/GothamPro-Light.otf')  format('opentype'),
+  url('../../fonts/GothamPro/GothamPro-Light.woff') format('woff'), url('../../fonts/GothamPro/GothamPro-Light.ttf')  format('truetype'), url('../../fonts/GothamPro/GothamPro-Light.svg#GothamPro-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'GothamPro NarrowBold';
-  src: url('../../fonts/GothamPro/GothaProNarBol.otf');
+  font-family: 'GothamPro-Italic';
+  src: url('../../fonts/GothamPro/GothamPro-Italic.eot?#iefix') format('embedded-opentype'),  url('../../fonts/GothamPro/GothamPro-Italic.otf')  format('opentype'),
+  url('../../fonts/GothamPro/GothamPro-Italic.woff') format('woff'), url('../../fonts/GothamPro/GothamPro-Italic.ttf')  format('truetype'), url('../../fonts/GothamPro/GothamPro-Italic.svg#GothamPro-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'GothamPro NarrowMedium';
-  src: url('../../fonts/GothamPro/GothaProNarMed.otf');
+  font-family: 'GothamPro-BoldItalic';
+  src: url('../../fonts/GothamPro/GothamPro-BoldItalic.eot?#iefix') format('embedded-opentype'),  url('../../fonts/GothamPro/GothamPro-BoldItalic.otf')  format('opentype'),
+  url('../../fonts/GothamPro/GothamPro-BoldItalic.woff') format('woff'), url('../../fonts/GothamPro/GothamPro-BoldItalic.ttf')  format('truetype'), url('../../fonts/GothamPro/GothamPro-BoldItalic.svg#GothamPro-BoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'GothamPro Regular';
-  src: url('../../fonts/GothamPro/GothaProReg.otf');
+  font-family: 'GothamPro-Bold';
+  src: url('../../fonts/GothamPro/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),  url('../../fonts/GothamPro/GothamPro-Bold.otf')  format('opentype'),
+  url('../../fonts/GothamPro/GothamPro-Bold.woff') format('woff'), url('../../fonts/GothamPro/GothamPro-Bold.ttf')  format('truetype'), url('../../fonts/GothamPro/GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-$font-GP-bl: 'GothamPro Black', $font-stack;
-$font-GP-bl-it: 'GothamPro BlackItalic', $font-stack;
-$font-GP-bold: 'GothamPro Bold', $font-stack;
-$font-GP-bold-it: 'GothamPro BoldItalic', $font-stack;
-$font-GP-it: 'GothamPro Italic', $font-stack;
-$font-GP-lt: 'GothamPro Ligth', $font-stack;
-$font-GP-lt-it: 'GothamPro LigthItalic', $font-stack;
-$font-GP-med: 'GothamPro Medium', $font-stack;
-$font-GP-med-it: 'GothamPro MediumItalic', $font-stack;
-$font-GP-nar-bold: 'GothamPro NarrowBold', $font-stack;
-$font-GP-nar-med: 'GothamPro NarrowMedium', $font-stack;
-$font-GP-reg: 'GothamPro Regular', $font-stack;
+@font-face {
+  font-family: 'GothamPro-BlackItalic';
+  src: url('../../fonts/GothamPro/GothamPro-BlackItalic.eot?#iefix') format('embedded-opentype'),  url('../../fonts/GothamPro/GothamPro-BlackItalic.otf')  format('opentype'),
+  url('../../fonts/GothamPro/GothamPro-BlackItalic.woff') format('woff'), url('../../fonts/GothamPro/GothamPro-BlackItalic.ttf')  format('truetype'), url('../../fonts/GothamPro/GothamPro-BlackItalic.svg#GothamPro-BlackItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamPro-Black';
+  src: url('../../fonts/GothamPro/GothamPro-Black.eot?#iefix') format('embedded-opentype'),  url('../../fonts/GothamPro/GothamPro-Black.otf')  format('opentype'),
+  url('../../fonts/GothamPro/GothamPro-Black.woff') format('woff'), url('../../fonts/GothamPro/GothamPro-Black.ttf')  format('truetype'), url('../../fonts/GothamPro/GothamPro-Black.svg#GothamPro-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-GP-bl: 'GothamPro-Black', $font-stack;
+$font-GP-bl-it: 'GothamPro-BlackItalic', $font-stack;
+$font-GP-bold: 'GothamPro-Bold', $font-stack;
+$font-GP-bold-it: 'GothamPro-BoldItalic', $font-stack;
+$font-GP-it: 'GothamPro-Italic', $font-stack;
+$font-GP-lt: 'GothamPro-Ligth', $font-stack;
+$font-GP-lt-it: 'GothamPro-LigthItalic', $font-stack;
+$font-GP-med: 'GothamPro-Medium', $font-stack;
+$font-GP-med-it: 'GothamPro-MediumItalic', $font-stack;
+$font-GP-nar-bold: 'GothamPro-NarrowBold', $font-stack;
+$font-GP-nar-med: 'GothamPro-NarrowMedium', $font-stack;
+$font-GP-reg: 'GothamPro', $font-stack;
