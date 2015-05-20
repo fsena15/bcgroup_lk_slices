@@ -1,9 +1,6 @@
 @import "common";
 
-.right-quick-menu {
-  position: fixed;
-  right: 0;
-  top: 357px;
+.quick-menu {
   border-collapse:separate;
   border-spacing: 0 5px;
   font-family: $font-fmOT3-bold;
@@ -42,5 +39,31 @@
     padding: 0 15px;
 
   }
+}
 
+.right-quick-menu {
+  position: fixed;
+  right: 0;
+  top: 357px;
+}
+
+
+.left-quick-menu {
+  position: fixed;
+  left: 0;
+  top: 357px;
+  border-spacing: 0 0;
+
+  .menu-item {
+    height: 48px;
+  }
+
+  .item-icon {
+    float: right;
+    height: 44px;
+    width: 48px;
+    background-color: #fbf9fc;
+    padding: 3px;
+    text-align: center;
+  }
 }

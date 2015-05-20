@@ -108,13 +108,19 @@ $height-pages-navbar: 120px;
     .contacts {
       font-family: $font-fmOT3-medium;
       color: #4a4b4d;
-      padding: 13px 0 0 10px;
+      padding: 10px 0 0 10px;
+      font-size: 14pt;
+
+      a {
+        color: #4a4b4d;
+      }
 
       .earphone {
         background: url("../../img/earphone.png");
         height: 17px;
         width: 18px;
         margin-right: 15px;
+        margin-top: 5px;
       }
 
       .envelope {
@@ -122,7 +128,7 @@ $height-pages-navbar: 120px;
         height: 13px;
         width: 20px;
         margin-right: 15px;
-        margin-top: 5px;
+        margin-top: 8px;
       }
     }
   }
@@ -137,7 +143,8 @@ $height-pages-navbar: 120px;
     .bcg {
       margin: 0 auto;
       position: relative;
-      background: url("../../img/BCG.png") no-repeat;
+      background-image: url("../../img/BCG_clear.png");
+      background-repeat: no-repeat;
       height: 584px;
       width: 1345px;
 
@@ -181,6 +188,13 @@ $height-pages-navbar: 120px;
   .slider-items-container {
     width: 95%;
     min-width: 1000px;
+
+  }
+
+  .slider-item {
+    .item-name a:hover {
+      color: $color-yellow;
+    }
   }
 
 }
