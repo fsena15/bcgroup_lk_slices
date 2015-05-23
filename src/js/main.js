@@ -15,4 +15,5 @@
 /*
  * Custom
  */
+//= partials/jquery.simple-slider.js
 //= partials/app.js
