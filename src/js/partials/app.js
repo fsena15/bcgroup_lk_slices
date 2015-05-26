@@ -16,6 +16,7 @@ $(function () {
 
     $('.logos-line.simple-slider').simpleSlider({
         stepSize: 185,
+        cycled: true,
         navNext: '.logos-line .right-arrow',
         navPrev: '.logos-line .left-arrow',
         list: '.logos-line .slider-items',
@@ -25,15 +26,15 @@ $(function () {
     $('.news .slider-items').simpleSlider({
         stepSize: 203,
         vertical: true,
-        navNext: '.news-voting .navigation-down',
-        navPrev: '.news-voting .navigation-up',
+        navNext: '.news-voting .navigation-up',
+        navPrev: '.news-voting .navigation-down',
         list: '.news .slider-items',
         items: '> div'
     });
 
 
     //quick menu
-    var topPosition = 690;
+    var topPosition = 890;
     $(document).scroll(function () {
         if ($(this).scrollTop() - topPosition > 0) {
             $('.right-quick-menu').addClass('dark');
