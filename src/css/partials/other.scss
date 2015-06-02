@@ -1,0 +1,29 @@
+@import "common";
+@import "header";
+@import "breadcrumbs";
+@import "footer";
+
+body {
+  font-family: $font-fmOT3-medium;
+  font-size: 14px;
+  min-width: 1345px;
+}
+
+.container.modified {
+  width: 1294px;
+}
+
+.bordered {
+  border: 5px solid #77644A;
+  color: #77644A;
+  padding: 0 8px;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.main-block {
+  padding: 40px 0;
+  text-align: center;
+  width: $page-width;
+  line-height: 1;
+}

@@ -41,7 +41,7 @@ var path = {
     src: { //Пути откуда брать исходники
         html: 'src/*.haml', //Синтаксис src/*.html говорит gulp что мы хотим взять все файлы с расширением .html
         js: 'src/js/main.js',//В стилях и скриптах нам понадобятся только main файлы
-        style: 'src/css/main.scss',
+        style: ['src/css/main.scss', 'src/css/other.scss'],
         img: ['src/img/**/*.*', bowerPath + '/bxslider-4/dist/images/*.*'], //Синтаксис img/**/*.* означает - взять все файлы всех расширений из папки и из вложенных каталогов
         fonts: ['src/fonts/**/*.*']
     },
