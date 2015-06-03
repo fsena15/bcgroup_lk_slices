@@ -388,22 +388,6 @@ body {
         line-height: 23pt;
       }
 
-      .author {
-        margin-top: 28px;
-
-        .full-name {
-          font-family: $font-fmOT3-bold;
-          font-size: 14pt;
-          line-height: 19pt;
-          color: $color-header;
-        }
-
-        .job-position {
-          font-size: 10pt;
-          line-height: 21pt;
-        }
-      }
-
       .results {
         line-height: 23pt;
         font-size: 11pt;
@@ -464,28 +448,6 @@ body {
     }
   }
 
-  .title-row {
-    margin-bottom: 48px;
-
-    .title-icon {
-      height: 76px;
-      width: 60px;
-      margin: 0 auto;
-
-      .bordered {
-        height: 100%;
-        padding: 15px 8px;
-      }
-
-    }
-
-    .title {
-      margin-top: 29px;
-      text-transform: uppercase;
-      font-size: 1.2em;
-    }
-  }
-
   .content-row {
     margin-left: 20px;
     margin-right: 20px;
@@ -505,18 +467,6 @@ body {
       font-family: $font-pt-sans-caption;
     }
 
-    .btn {
-      border-radius: 0;
-      border: 0;
-      margin-right: 12px;
-      padding: 3px 12px;
-
-      &:focus {
-        border: 0;
-        border-radius: 0;
-      }
-    }
-
     .answers {
       margin-top: 32px;
       margin-bottom: 40px;
@@ -525,43 +475,8 @@ body {
     .answer {
       margin: 15px 0;
 
-      .jq-radio {
-        margin-right: 12px;
-        height: 8px;
-        width: 9px;
-        background: #FFFFFF url("../../img/checkbox-unchecked.png");
-        border: 0;
-        border-radius: 0;
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-
-        &.checked .jq-radio__div {
-          background: $color-yellow url("../../img/checkbox-unchecked.png");
-          margin: 0;
-          border: 0;
-          height: 8px;
-          width: 9px;
-          border-radius: 0;
-          -webkit-box-shadow: none;
-          -moz-box-shadow: none;
-          box-shadow: none;
-        }
-      }
     }
 
-    .buttons {
-    }
-
-    .button-main {
-      background-color: $color-yellow;
-      color: #FFFFFF;
-    }
-
-    .button-additional {
-      background-color: #938169;
-      color: #FFFFFF;
-    }
   }
 
   .news {

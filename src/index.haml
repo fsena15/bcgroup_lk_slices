@@ -177,7 +177,7 @@
                   .body
                     Некоторый текст Некоторый текст Некоторый текст Некоторый текст Некоторый текст
                     Некоторый текст Некоторый текст Некоторый текст Некоторый текст Некоторый текст
-                  .author
+                  .specialist
                     .full-name
                       Татьяна Рамзина
                     .job-position
@@ -195,7 +195,7 @@
                   .body
                     Некоторый текст Некоторый текст Некоторый текст Некоторый текст Некоторый текст
                     Некоторый текст Некоторый текст Некоторый текст Некоторый текст Некоторый текст
-                  .author
+                  .specialist
                     .full-name
                       Татьяна Рамзина
                     .job-position
@@ -234,55 +234,60 @@
               .row.content-row.news
                 .news-wrapper.slider-items
                   .col-sm-12.top-yellow
-                    .title
-                      11.11.2014
-                    .body
-                      Эксперт BCGroup дал комментарий на Сейчас.ру о падении показателей зарубежных компаний. Эта новость продолжается и на 3ю строку.
+                    .text-block
+                      .title
+                        11.11.2014
+                      .body
+                        Эксперт BCGroup дал комментарий на Сейчас.ру о падении показателей зарубежных компаний. Эта новость продолжается и на 3ю строку.
                   .col-sm-12.top-yellow
-                    .title
-                      10.11.2014
-                    .body
-                      news 2
+                    .text-block
+                      .title
+                        10.11.2014
+                      .body
+                        news 2
                   .col-sm-12.top-yellow
-                    .title
-                      9.11.2014
-                    .body
-                      news 3
+                    .text-block
+                      .title
+                        9.11.2014
+                      .body
+                        news 3
                   .col-sm-12.top-yellow
-                    .title
-                      9.11.2014
-                    .body
-                      news 4
+                    .text-block
+                      .title
+                        9.11.2014
+                      .body
+                        news 4
             .col-sm-6
               .row.content-row
                 .col-sm-12.top-yellow.vote
-                  %form
-                    .body
-                      Какой из предложенных вариантов более предпочтителен в условиях экономического кризиса, развивающегося на территории Российской Федерации с начала 2014 года?
-                    .answers
-                      .answer
-                        %input{type: "radio", name: "voting1"}
-                        sss
-                      .answer
-                        %input{type: "radio", name: "voting1"}
-                        sss
-                      .answer
-                        %input{type: "radio", name: "voting1"}
-                        sss
-                      .answer
-                        %input{type: "radio", name: "voting1"}
-                        sss
-                      .answer
-                        %input{type: "radio", name: "voting1"}
-                        sss
-                      .answer
-                        %input{type: "radio", name: "voting1"}
-                        sss
-                    .buttons
-                      %button.btn.button-main
-                        Голосовать
-                      %button.btn.button-additional
-                        Результаты
+                  .text-block
+                    %form
+                      .body
+                        Какой из предложенных вариантов более предпочтителен в условиях экономического кризиса, развивающегося на территории Российской Федерации с начала 2014 года?
+                      .answers
+                        .answer
+                          %input{type: "radio", name: "voting1"}
+                          sss
+                        .answer
+                          %input{type: "radio", name: "voting1"}
+                          sss
+                        .answer
+                          %input{type: "radio", name: "voting1"}
+                          sss
+                        .answer
+                          %input{type: "radio", name: "voting1"}
+                          sss
+                        .answer
+                          %input{type: "radio", name: "voting1"}
+                          sss
+                        .answer
+                          %input{type: "radio", name: "voting1"}
+                          sss
+                      .buttons
+                        %button.btn.button-main
+                          Голосовать
+                        %button.btn.button-additional
+                          Результаты
           .row.navigation
             .col-sm-6
               %a

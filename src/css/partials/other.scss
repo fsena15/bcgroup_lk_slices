@@ -7,10 +7,11 @@ body {
   font-family: $font-fmOT3-medium;
   font-size: 14px;
   min-width: 1345px;
+  background-color: $page-other-background;
 }
 
 .container.modified {
-  width: 1294px;
+  width: $page-other-width;
 }
 
 .bordered {
@@ -24,6 +25,44 @@ body {
 .main-block {
   padding: 40px 0;
   text-align: center;
-  width: $page-width;
+  width: $page-other-width;
   line-height: 1;
 }
+
+/* Employees -- START */
+$employee-width: 351px;
+$employee-side-padding: 7px;
+
+.employee {
+  width: $employee-width;
+  padding: 0;
+  margin: 9px $employee-side-padding;
+
+  &.first {
+    margin-left: 0;
+  }
+
+  &.last {
+    margin-right: 0;
+  }
+
+  .photo {
+    background-color: #e7e4df;
+    width: 100%;
+    height: $employee-width;
+  }
+}
+
+.employees-row-3 {
+  width: $employee-width + $employee-side-padding * 2 + $employee-width + $employee-side-padding * 2 + $employee-width;
+}
+
+.employees-row-2 {
+  width: $employee-width + $employee-side-padding * 2 + $employee-width;
+}
+
+.employees-row-1 {
+  width: $employee-width;
+}
+
+/* Employees -- END */
