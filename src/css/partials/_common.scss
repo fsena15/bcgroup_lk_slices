@@ -17,6 +17,11 @@
 a {
   cursor: pointer;
   color: $color-links;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .top-yellow {
@@ -26,6 +31,21 @@ a {
   border-left: 1px solid #fcfcfc;
   border-right: 1px solid #fcfcfc;
   margin-bottom: 17px;
+
+  ol {
+    list-style-type: none;
+    counter-reset:  item;
+    padding: 0;
+
+    li {
+      &:before {
+        color: $color-header;
+        font-weight: bold;
+        content: counter(item) ') ';
+        counter-increment: item;
+      }
+    }
+  }
 
   .text-block {
     padding: 27px 30px 45px;
@@ -82,6 +102,16 @@ a {
     text-align: left;
     font-family: $font-pt-sans-caption;
     color: $color-brown;
+
+    .section-text-col {
+      padding-left: 10px;
+      vertical-align: top;
+      padding-right: 45px;
+    }
+
+    .section-icon-col {
+      vertical-align: top;
+    }
 
     .title {
       font-size: 1.5em;
