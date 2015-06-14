@@ -120,3 +120,17 @@ $employee-side-padding: 7px;
     }
   }
 }
+
+.right-quick-menu.quick-menu {
+  .menu-item {
+    background: #FFFFFF;
+
+    .item-text > a {
+      color: $color-brown;
+    }
+
+    .item-icon {
+      background-color: $color-brown;
+    }
+  }
+}

@@ -111,6 +111,11 @@ a {
 
     .section-icon-col {
       vertical-align: top;
+      font-size: 50px;
+
+      .section-icon {
+        margin-top: -10px;
+      }
     }
 
     .title {
@@ -139,7 +144,12 @@ a {
 
     .bordered {
       height: 100%;
-      padding: 15px 8px;
+      padding: 10px 0px;
+
+      .icon {
+        //font-weight: bold;
+        font-size: 50px;
+      }
     }
 
   }
