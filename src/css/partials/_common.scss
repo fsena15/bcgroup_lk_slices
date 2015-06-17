@@ -78,7 +78,7 @@ a {
     margin-right: 12px;
     height: 8px;
     width: 9px;
-    background: #FFFFFF url("../../img/checkbox-unchecked.png");
+    background: #FFFFFF url("#{$base-path}img/checkbox-unchecked.png");
     border: 0;
     border-radius: 0;
     -webkit-box-shadow: none;
@@ -86,7 +86,7 @@ a {
     box-shadow: none;
 
     &.checked .jq-radio__div {
-      background: $color-yellow url("../../img/checkbox-unchecked.png");
+      background: $color-yellow url("#{$base-path}img/checkbox-unchecked.png");
       margin: 0;
       border: 0;
       height: 8px;

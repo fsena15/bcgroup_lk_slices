@@ -10,12 +10,12 @@
   }
 
   .left-arrow {
-    background: url("../../img/arrow-left.png");
+    background: url("#{$base-path}img/arrow-left.png");
     @extend .arrow;
   }
 
   .right-arrow {
-    background: url("../../img/arrow-right.png");
+    background: url("#{$base-path}img/arrow-right.png");
     @extend .arrow;
   }
 

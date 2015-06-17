@@ -101,7 +101,7 @@ $height-pages-navbar: 120px;
       .search-len {
         height: 20px;
         width: 20px;
-        background: url("../../img/search_len.png");
+        background: url("#{$base-path}img/search_len.png");
       }
     }
 
@@ -116,7 +116,7 @@ $height-pages-navbar: 120px;
       }
 
       .earphone {
-        background: url("../../img/earphone.png");
+        background: url("#{$base-path}img/earphone.png");
         height: 17px;
         width: 18px;
         margin-right: 15px;
@@ -124,7 +124,7 @@ $height-pages-navbar: 120px;
       }
 
       .envelope {
-        background: url("../../img/envelope.png");
+        background: url("#{$base-path}img/envelope.png");
         height: 13px;
         width: 20px;
         margin-right: 15px;
@@ -143,7 +143,7 @@ $height-pages-navbar: 120px;
     .bcg {
       margin: 0 auto;
       position: relative;
-      //background-image: url("../../img/BCG_clear.png");
+      //background-image: url("#{$base-path}img/BCG_clear.png");
       //background-repeat: no-repeat;
       height: 584px;
       width: 1345px;
@@ -159,7 +159,7 @@ $height-pages-navbar: 120px;
       .u-human {
         height: 92px;
         width: 36px;
-        background: url("../../img/u_human.png");
+        background: url("#{$base-path}img/u_human.png");
         position: absolute;
         right: 355px;
         top: 195px;

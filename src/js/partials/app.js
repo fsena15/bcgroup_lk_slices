@@ -45,7 +45,8 @@ $(function () {
 
     // comments slider
     $('.comments-slider').bxSlider({
-        auto: true
+        auto: true,
+        controls: false
     });
 
 });

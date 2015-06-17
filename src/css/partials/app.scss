@@ -47,7 +47,7 @@ body {
     }
 
     .link:not(:hover) {
-      background: url("../../img/link_line.png") repeat-x 0 3px;
+      background: url("#{$base-path}img/link_line.png") repeat-x 0 3px;
     }
 
     .link:hover {
@@ -100,7 +100,7 @@ body {
         float: left;
         height: 98px;
         width: 98px;
-        background: url("../../img/clock.png");
+        background: url("#{$base-path}img/clock.png");
         margin-left: ($page-width - 98px) / 2;
       }
     }
@@ -113,7 +113,7 @@ body {
       .experience-map {
         height: 150px;
         width: 248px;
-        background: url("../../img/map.png");
+        background: url("#{$base-path}img/map.png");
         margin: 20px 7px;
       }
     }
@@ -150,7 +150,7 @@ body {
     }
 
     .pig {
-      background: url("../../img/pig.png");
+      background: url("#{$base-path}img/pig.png");
       height: 112px;
       width: 121px;
       float: left;
@@ -173,7 +173,7 @@ body {
     }
 
     .free-dia {
-      background: url("../../img/free-dia.png");
+      background: url("#{$base-path}img/free-dia.png");
       width: 113px;
       height: 113px;
       float: right;
@@ -189,7 +189,7 @@ body {
         float: left;
         height: 64px;
         margin-left: 485px;
-        background: url("../../img/awards.png");
+        background: url("#{$base-path}img/awards.png");
         margin-right: 18px;
       }
 
@@ -211,7 +211,7 @@ body {
       .safe {
         height: 187px;
         width: 172px;
-        background: url("../../img/safe.png");
+        background: url("#{$base-path}img/safe.png");
         margin-top: $final-line-height - 187px;
         margin-left: 200px;
       }
@@ -219,7 +219,7 @@ body {
       .operator {
         height: 244px;
         width: 182px;
-        background: url("../../img/call_operator.png");
+        background: url("#{$base-path}img/call_operator.png");
         margin-top: $final-line-height - 244px;
         margin-left: 82px;
       }
@@ -227,7 +227,7 @@ body {
       .archive {
         height: 235px;
         width: 340px;
-        background: url("../../img/archive.png");
+        background: url("#{$base-path}img/archive.png");
         margin-top: $final-line-height - 235px;
         margin-left: 25px;
         padding-top: 150px;
@@ -248,13 +248,13 @@ body {
     .chain1 {
       width: 3px;
       height: 50px;
-      background: url("../../img/chain1.png");
+      background: url("#{$base-path}img/chain1.png");
     }
 
     .chain2 {
       width: 127px;
       height: 94px;
-      background: url("../../img/chain2.png");
+      background: url("#{$base-path}img/chain2.png");
       position: absolute;
       margin-left: 350px;
       margin-top: -3em;
@@ -266,13 +266,13 @@ body {
       margin-top: 50px;
       height: 304px;
       width: 42px;
-      background: url("../../img/chain3.png");
+      background: url("#{$base-path}img/chain3.png");
     }
 
     .chain4 {
       width: 167px;
       height: 152px;
-      background: url("../../img/chain4.png");
+      background: url("#{$base-path}img/chain4.png");
       position: relative;
       left: -105px;
       top: -10px;
@@ -281,7 +281,7 @@ body {
     .chain5 {
       width: 368px;
       height: 42px;
-      background: url("../../img/chain5.png");
+      background: url("#{$base-path}img/chain5.png");
       position: relative;
       z-index: 10;
       top: -15px;
@@ -291,7 +291,7 @@ body {
     .chain6 {
       width: 25px;
       height: 165px;
-      background: url("../../img/chain6.png");
+      background: url("#{$base-path}img/chain6.png");
       position: absolute;
       margin-left: 440px;
       margin-top: 125px;
@@ -300,7 +300,7 @@ body {
     .chain7 {
       width: 36px;
       height: 106px;
-      background: url("../../img/chain7.png");
+      background: url("#{$base-path}img/chain7.png");
       position: absolute;
       margin-left: 150px;
       margin-top: 160px;
@@ -324,13 +324,13 @@ body {
     font-size: 1.1em;
 
     .left-arrow {
-      background: url("../../img/arrow-left-yellow.png");
+      background: url("#{$base-path}img/arrow-left-yellow.png");
       height: 35px;
       width: 19px;
     }
 
     .right-arrow {
-      background: url("../../img/arrow-right-yellow.png");
+      background: url("#{$base-path}img/arrow-right-yellow.png");
       height: 35px;
       width: 19px;
     }
@@ -396,7 +396,7 @@ body {
         .icon {
           height: 17px;
           width: 17px;
-          background: url("../../img/result.png");
+          background: url("#{$base-path}img/result.png");
           margin: 5px 8px 0 0;
         }
       }
@@ -418,7 +418,7 @@ body {
   padding-bottom: 92px;
 
   .corner-down {
-    background: url("../../img/corner-down.png");
+    background: url("#{$base-path}img/corner-down.png");
     height: 20px;
     width: 42px;
     margin-top: -1px;
@@ -434,14 +434,14 @@ body {
     }
 
     .navigation-down {
-      background: url("../../img/arrow-down.png");
+      background: url("#{$base-path}img/arrow-down.png");
       height: 14px;
       width: 25px;
       margin-bottom: 18px;
     }
 
     .navigation-up {
-      background: url("../../img/arrow-up.png");
+      background: url("#{$base-path}img/arrow-up.png");
       height: 14px;
       width: 25px;
       margin-bottom: 18px;
