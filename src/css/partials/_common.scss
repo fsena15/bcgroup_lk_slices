@@ -129,6 +129,20 @@ a {
       margin: 21px 0;
       font-size: 11pt;
       line-height: 23pt;
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+    }
+  }
+
+  .category-row {
+    margin-left: 50px;
+    margin-bottom: 19px;
+
+    .section-text-col {
+      padding-top: 15px;
     }
   }
 }

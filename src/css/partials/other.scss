@@ -50,6 +50,11 @@ $employee-side-padding: 7px;
     background-color: #e7e4df;
     width: 100%;
     height: $employee-width;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
   }
 }
 

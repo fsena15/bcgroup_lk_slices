@@ -108,11 +108,25 @@ $height-pages-navbar: 120px;
     .contacts {
       font-family: $font-fmOT3-medium;
       color: #4a4b4d;
-      padding: 10px 0 0 10px;
+      padding: 10px 0 0 0;
       font-size: 14pt;
 
       a {
         color: #4a4b4d;
+      }
+
+      .icon-earphone {
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-right: 15px;
+        margin-top: 2px;
+      }
+
+      .icon-envelope {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-right: 15px;
+        margin-top: 5px;
       }
 
       .earphone {

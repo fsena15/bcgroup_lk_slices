@@ -20,7 +20,7 @@ $height-pages-navbar: 120px;
   }
 
   .logo {
-    background: url("../../img/bcg_logo_2013.png");
+    background: url("#{$base-path}img/bcg_logo_2013.png");
     height: 73px;
     width: 208px;
     float: left;
