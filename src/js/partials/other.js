@@ -14,4 +14,12 @@ $(function () {
         items: '> li'
     });
 
+    $('.clients-line.simple-slider').simpleSlider({
+        stepSize: 360,
+        cycled: false,
+        navNext: '.clients-line .left-arrow',
+        navPrev: '.clients-line .right-arrow',
+        list: '.clients-line .slider-items',
+        items: '> li'
+    });
 });

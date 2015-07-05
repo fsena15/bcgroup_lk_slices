@@ -29,6 +29,11 @@ body {
   line-height: 1;
 }
 
+.wide-block {
+  margin-left: -135px;
+  margin-right: -135px;
+}
+
 /* Employees -- START */
 $employee-width: 351px;
 $employee-side-padding: 7px;
@@ -124,6 +129,14 @@ $employee-side-padding: 7px;
       }
     }
   }
+
+  a:hover {
+    color: $color-yellow;
+  }
+
+  .categories-row {
+    margin-bottom: 40px;
+  }
 }
 
 .right-quick-menu.quick-menu {
@@ -139,3 +152,125 @@ $employee-side-padding: 7px;
     }
   }
 }
+
+/* Project and clients -- BEGIN */
+.white-block {
+  @extend .top-yellow;
+  border-top: 0;
+  margin-bottom: 100px;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.projects-block {
+  height: 870px;
+  padding: 0 25px;
+  color: $color-text;
+
+  .categories-row {
+    height: (820 / 3 - 40)+px;
+  }
+
+  .left-arrow, .right-arrow {
+    margin-top: 400px;
+  }
+
+  .slider-items-container {
+    width: 1425px;
+    padding: 23px 80px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 125px;
+  }
+
+  .slider-items-wrapper {
+    height: 870px;
+  }
+
+  .slider-items {
+    height: 820px;
+  }
+
+  .section-text {
+    padding-right: 20px;
+    padding-left: 40px;
+
+    .title {
+      font-size: 1.5em;
+      margin-bottom: 17px;
+      font-family: $font-fmOT3-bold;
+      color: $color-header;
+    }
+
+    .body {
+      margin: 15px 0 20px;
+      font-size: 10pt;
+      line-height: 18pt;
+      color: $color-text;
+    }
+  }
+}
+
+.clients-line {
+  padding: 0 25px;
+
+  .left-arrow, .right-arrow {
+    margin-top: 206px;
+  }
+
+  .slider-items-container {
+    width: 1430px;
+    padding: 5px 0;
+    margin-right: 5px;
+    margin-bottom: 125px;
+  }
+
+  .slider-items-wrapper {
+    height: 460px;
+  }
+
+  .slider-items {
+    height: 460px;
+  }
+
+  .slider-item {
+    width: 350px;
+    margin: 0 5px;
+    height: 460px;
+
+
+    .logo {
+      height: 245px;
+      width: 100%;
+    }
+
+    .text-block {
+      padding-top: 10px;
+    }
+
+    .title {
+      font-size: 1.5em;
+      margin-bottom: 17px;
+      font-family: $font-fmOT3-bold;
+      color: $color-header;
+    }
+
+    .body {
+      margin: 15px 0 20px;
+      font-size: 10pt;
+      line-height: 18pt;
+      color: $color-text;
+    }
+
+    .web-site {
+      .icon-web {
+        margin-right: 5px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+/* Project and clients -- END */

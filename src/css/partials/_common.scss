@@ -123,6 +123,16 @@ a {
       margin-bottom: 17px;
       font-family: $font-fmOT3-bold;
       color: $color-header;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+          text-decoration: none;
+          color: inherit;
+        }
+      }
     }
 
     .body {
@@ -143,6 +153,22 @@ a {
 
     .section-text-col {
       padding-top: 15px;
+    }
+  }
+}
+
+.additional-links-row {
+  .additional-link {
+    margin-right: 20px;
+    font-family: $font-fmOT3-medium;
+    font-size: 14px;
+
+    .icon {
+      margin-right: 10px;
+    }
+
+    a {
+      text-decoration: none;
     }
   }
 }
