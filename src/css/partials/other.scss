@@ -169,7 +169,8 @@ $project-pagination-height: 50px;
 $project-width: 400px;
 
 .projects-block {
-  height: $project-height * 3 + $project-pagination-height;
+  //height: $project-height * 3 + $project-pagination-height;
+  height: auto;
   padding: 0 25px;
   color: $color-text;
 
@@ -191,7 +192,8 @@ $project-width: 400px;
   }
 
   .slider-items-wrapper {
-    height: $project-height * 3 + $project-pagination-height;
+    //height: $project-height * 3 + $project-pagination-height;
+    height: auto;
     position: relative;
   }
 
@@ -349,3 +351,54 @@ $project-width: 400px;
 }
 
 /* Project and clients -- END */
+/* News -- BEGIN */
+.top-yellow.news-elem {
+  .title {
+    color: $color-yellow;
+    font-size: 12pt;
+    margin-bottom: 19px;
+    font-family: $font-fmOT3-bold;
+
+    a, a:hover {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}
+
+.pagination {
+  & > * {
+    margin: 5px;
+  }
+
+  a:hover {
+    color: $color-yellow;
+  }
+}
+/* News -- END */
+/* Geography -- BEGIN */
+.geography {
+  .big-yellow {
+    color: $color-yellow;
+    font-family: $font-fmOT3-ex-bold;
+    font-size: 3em;
+    width: 510px;
+    margin: 0 auto;
+  }
+
+  .subtitle {
+    color: $color-header;
+    font-family: $font-fmOT3-regular;
+    font-size: 1.2em;
+  }
+
+  #map {
+    top: -50px;
+    position: relative;
+
+    path {
+      cursor: pointer;
+    }
+  }
+}
+/* Geography -- END */

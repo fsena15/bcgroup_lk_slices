@@ -11,6 +11,7 @@
 //= ../../bower_components/bxslider-4/dist/vendor/jquery.fitvids.js
 //= ../../bower_components/bxslider-4/dist/jquery.bxslider.js
 //= ../../bower_components/jQueryFormStyler/jquery.formstyler.js
+//= ../../bower_components/raphael/raphael.js
 
 /*
  * Custom

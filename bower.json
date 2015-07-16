@@ -17,6 +17,7 @@
     "jquery": "1.*",
     "bootstrap": "3.*",
     "bxslider-4": "git@github.com:stevenwanderski/bxslider-4.git#4.2.3",
-    "jQueryFormStyler": "git@github.com:Dimox/jQueryFormStyler.git#1.6.3"
+    "jQueryFormStyler": "git@github.com:Dimox/jQueryFormStyler.git#1.6.3",
+    "raphael": "~2.1.4"
   }
 }
