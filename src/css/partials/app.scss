@@ -389,15 +389,13 @@ body {
       }
 
       .results {
-        line-height: 23pt;
+        line-height: 20pt;
         font-size: 11pt;
         font-family: $font-fmOT3-regular;
 
         .icon {
-          height: 17px;
-          width: 17px;
-          background: url("#{$base-path}img/result.png");
-          margin: 5px 8px 0 0;
+          color: $color-header;
+          margin: 5px 5px 0 0;
         }
       }
     }

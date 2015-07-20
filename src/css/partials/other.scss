@@ -2,12 +2,14 @@
 @import "header";
 @import "breadcrumbs";
 @import "footer";
+@import "fields";
 
 body {
   font-family: $font-fmOT3-medium;
   font-size: 14px;
   min-width: 1345px;
   background-color: $page-other-background;
+  position: relative;
 }
 
 .container.modified {
@@ -159,6 +161,9 @@ $employee-side-padding: 7px;
 .white-block {
   @extend .top-yellow;
   border-top: 0;
+}
+
+.wide-block .white-block {
   margin-bottom: 100px;
   padding-left: 110px;
   padding-right: 110px;
@@ -173,6 +178,13 @@ $project-width: 400px;
   height: auto;
   padding: 0 25px;
   color: $color-text;
+  position: relative;
+
+  .white-block {
+    .slider-items-container {
+      float: none;
+    }
+  }
 
   .project {
     height: $project-height;
@@ -180,15 +192,26 @@ $project-width: 400px;
   }
 
   .left-arrow, .right-arrow {
-    margin-top: ($project-height * 3 + $project-pagination-height) / 2;
+    //margin-top: ($project-height * 3 + $project-pagination-height) / 2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+  }
+
+  .left-arrow {
+    left: 0;
+  }
+  .right-arrow {
+    right: 0;
   }
 
   .slider-items-container {
-    width: $project-width * 3 + 80*2 + 6*2 + 25*2;
-    padding: 23px 80px;
+    //width: $project-width * 3 + 80*2 + 6*2 + 25*2;
+    padding: 30px 10px 20px;
     margin-right: 5px;
     margin-left: 5px;
-    margin-bottom: 125px;
+    margin-bottom: 0;
   }
 
   .slider-items-wrapper {
@@ -224,31 +247,14 @@ $project-width: 400px;
 
   .pagenum {
     position: absolute;
-    right: 0;
+    right: 20px;
     bottom: 0;
   }
 }
 
 @media all and (max-width: 1500px) {
-  .projects-block {
-    height: $project-height * 5 + $project-pagination-height;
+  .wide-block .projects-block {
     padding: 0 85px;
-
-    .left-arrow, .right-arrow {
-      margin-top: ($project-height * 5 + $project-pagination-height) / 2;
-    }
-
-    .slider-items-container {
-      width: $project-width * 2 + 80*2 + 6*2 + 25*2;
-    }
-
-    .slider-items-wrapper {
-      height: $project-height * 5 + $project-pagination-height;
-    }
-
-    .slider-items {
-      height: $project-height * 5;
-    }
   }
 }
 

@@ -294,7 +294,7 @@ $(function () {
     M964.984,409.95l-1.535,1.688v2.146v2.301l2.607-1.072l1.383,1.381l1.533-1.533l0.613-3.07l-1.688-2.453L964.984,409.95z\
     M676.119,227.274l-2.975,2.977v2.01h2.492l0.805,1.932l2.091-0.965l2.415-2.414v-3.862h-3.059L676.119,227.274z');
 
-    areas.NW = paper.path('' +
+    areas.nw = paper.path('' +
     'M244.725,217.05l0.443-3.279l5.407-5.407h9.042l2.836-4.965v-9.574l5.676-2.837l7.445-3.724l5.143,1.951h3.014l2.481,2.481\
     l3.044-2.122l-0.739,3.719l3.014-0.355l4.256,0.178v2.836l0.887,3.191l-1.952-1.24l-2.038-2.04l-1.86,1.862l0.885,3.369v3.368\
     l3.016,1.596l2.305,2.305v3.723l2.571,1.242v4.166l2.925,2.926l1.418,4.964v5.143l-0.886,4.432l1.063,2.483l0.089,5.406l3.103,3.104\
@@ -350,7 +350,9 @@ $(function () {
     L416.739,272.647z M359.779,258.651l-3.539,0.965l-2.093,2.736l-1.606,2.092l1.124,3.055l2.575,0.969l2.414,0.963l2.252-1.607\
     l2.734,0.48l1.448-3.377l-2.251-2.897l-0.162-2.413L359.779,258.651z');
 
-    var curArea = 'NW';
+    var prefix = '/map/';
+    var curArea = window.location.pathname.substr(prefix.length).split(/[\/\?]/)[0];
+
     $.each(areas, function (key) {
         var attrs = {
             fill: "#928069",
@@ -363,13 +365,20 @@ $(function () {
             attrs.fill = "#F6C443";
             attrs['stroke-width'] = "0";
         }
-        areas[key].attr(attrs)
-        .hover(function () {
-            areas[key].attr({fill: "#F6C443", 'stroke-width': "0"});
-        }, function() {
-            if (key != curArea) {
-                areas[key].attr({fill: "#928069", 'stroke-width': "3"});
-            }
-        });
+        areas[key]
+            .attr(attrs)
+            .hover(function () {
+                areas[key].attr({fill: "#F6C443", 'stroke-width': "0"});
+            }, function() {
+                if (key != curArea) {
+                    areas[key].attr({fill: "#928069", 'stroke-width': "3"});
+                }
+            })
+            .click(function() {
+                if (key != curArea) {
+                    window.location = prefix + key;
+                }
+                return false;
+            });
     });
 });

@@ -1,0 +1,47 @@
+@import "common";
+
+@mixin field-background($type, $side) {
+  background: url("#{$base-path}img/fields/service_#{$type}_field_#{$side}.png");
+}
+
+.left-field {
+  width: 300px;
+  height: 1300px;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: $footer-height;
+}
+
+.right-field {
+  width: 300px;
+  height: 1300px;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: $footer-height;
+}
+
+.advertising-field-left { @include field-background('advertising', 'l');}
+.advertising-field-right { @include field-background('advertising', 'r');}
+
+.analytics-field-left { @include field-background('analytics', 'l');}
+.analytics-field-right { @include field-background('analytics', 'r');}
+
+.calc-volume-field-left { @include field-background('calc_volume', 'l');}
+.calc-volume-field-right { @include field-background('calc_volume', 'r');}
+
+.call-center-field-left { @include field-background('call_center', 'l');}
+.call-center-field-right { @include field-background('call_center', 'r');}
+
+.concurrent-analytics-field-left { @include field-background('concurrent_analytics', 'l');}
+.concurrent-analytics-field-right { @include field-background('concurrent_analytics', 'r');}
+
+.customers-behavior-field-left { @include field-background('customers_behavior', 'l');}
+.customers-behavior-field-right { @include field-background('customers_behavior', 'r');}
+
+.express-research-field-left { @include field-background('express_research', 'l');}
+.express-research-field-right { @include field-background('express_research', 'r');}
+
+.grade-field-left { @include field-background('grade', 'l');}
+.grade-field-right { @include field-background('grade', 'r');}
