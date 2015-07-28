@@ -32,6 +32,10 @@ a {
   border-right: 1px solid #fcfcfc;
   margin-bottom: 17px;
 
+  .white-block & {
+    background-color: #F0F0F0;
+  }
+
   ol {
     list-style-type: none;
     counter-reset:  item;

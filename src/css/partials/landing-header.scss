@@ -206,6 +206,19 @@ $height-pages-navbar: 120px;
   }
 
   .slider-item {
+    .item-icon {
+      & > a, & > a:hover {
+        color: $color-links;
+
+        & > div {
+          height: 45px;
+          width: 45px;
+          font-size: 45px;
+          line-height: 45px;
+        }
+      }
+    }
+
     .item-name a:hover {
       color: $color-yellow;
     }
