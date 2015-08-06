@@ -1,5 +1,3 @@
-@import "common";
-
 @mixin field-background($type, $side) {
   background: url("#{$base-path}img/fields/service_#{$type}_field_#{$side}.png");
 }

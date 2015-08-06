@@ -1,6 +1,3 @@
-@import "constants";
-@import "fonts";
-
 .yellow-text {
   color: $color-yellow;
 }
@@ -99,6 +96,23 @@ a {
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
       box-shadow: none;
+    }
+  }
+
+  .section-title {
+    font-size: 2em;
+    margin-bottom: 17px;
+    font-family: $font-fmOT3-bold;
+    color: $color-header;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+
+      &:hover {
+        text-decoration: none;
+        color: inherit;
+      }
     }
   }
 
