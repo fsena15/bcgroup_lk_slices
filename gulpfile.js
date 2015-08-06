@@ -40,7 +40,8 @@ var path = {
     },
     src: { //Пути откуда брать исходники
         html: 'src/*.haml', //Синтаксис src/*.html говорит gulp что мы хотим взять все файлы с расширением .html
-        js: ['src/js/main.js', 'src/js/other.js', 'src/js/geography.js'],//В стилях и скриптах нам понадобятся только main файлы
+        js: ['src/js/main.js', 'src/js/other.js'],//В стилях и скриптах нам понадобятся только main файлы
+        min_js: ['src/js/geography.js'],
         style: ['src/css/main.scss', 'src/css/other.scss', 'src/css/vendor.scss'],
         img: ['src/img/**/*.*', bowerPath + '/bxslider-4/dist/images/*.*'], //Синтаксис img/**/*.* означает - взять все файлы всех расширений из папки и из вложенных каталогов
         fonts: ['src/fonts/**/*.*']
@@ -69,6 +70,16 @@ gulp.task('js:build', function () {
         .pipe(rigger()) //Прогоним через rigger
         .pipe(sourcemaps.init()) //Инициализируем sourcemap
         //.pipe(uglify()) //Сожмем наш js
+        .pipe(sourcemaps.write()) //Пропишем карты
+        .pipe(gulp.dest(path.build.js)) //Выплюнем готовый файл в build
+        .pipe(reload({stream: true})); //И перезагрузим сервер
+});
+
+gulp.task('min_js:build', function () {
+    gulp.src(path.src.min_js) //Найдем наш main файл
+        .pipe(rigger()) //Прогоним через rigger
+        .pipe(sourcemaps.init()) //Инициализируем sourcemap
+        .pipe(uglify()) //Сожмем наш js
         .pipe(sourcemaps.write()) //Пропишем карты
         .pipe(gulp.dest(path.build.js)) //Выплюнем готовый файл в build
         .pipe(reload({stream: true})); //И перезагрузим сервер
@@ -105,6 +116,7 @@ gulp.task('fonts:build', function() {
 gulp.task('build', [
     'html:build',
     'js:build',
+    'min_js:build',
     'style:build',
     'fonts:build',
     'image:build'
