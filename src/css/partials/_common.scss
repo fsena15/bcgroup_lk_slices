@@ -51,6 +51,9 @@ a {
   .text-block {
     padding: 27px 30px 45px;
     text-align: left;
+    font-size: 11pt;
+    line-height: 23pt;
+    font-family: $font-pt-sans-caption;
   }
 
   .btn {
@@ -239,4 +242,8 @@ a {
     font-size: 10pt;
     line-height: 21pt;
   }
+}
+
+.top-yellow.news-elem {
+  cursor: pointer;
 }

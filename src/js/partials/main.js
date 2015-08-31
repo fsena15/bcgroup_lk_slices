@@ -6,14 +6,14 @@ $(function () {
     $('.categories-navbar.simple-slider').simpleSlider({
         stepSize: 230,
         cycled: true,
-        navNext: '.categories-navbar .right-arrow',
-        navPrev: '.categories-navbar .left-arrow',
+        navPrev: '.categories-navbar .right-arrow',
+        navNext: '.categories-navbar .left-arrow',
         list: '.categories-navbar .slider-items',
         items: '> li'
     });
 
     $('.news .slider-items').simpleSlider({
-        stepSize: 203,
+        stepSize: 242,
         vertical: true,
         navNext: '.news-voting .navigation-up',
         navPrev: '.news-voting .navigation-down',
@@ -37,5 +37,4 @@ $(function () {
         auto: true,
         controls: false
     });
-
 });
