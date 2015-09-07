@@ -23,7 +23,7 @@ $(function () {
 
 
     //quick menu
-    var topPosition = 890;
+    var topPosition = 400;
     $(document).scroll(function () {
         if ($(this).scrollTop() - topPosition > 0) {
             $('.right-quick-menu').addClass('dark');

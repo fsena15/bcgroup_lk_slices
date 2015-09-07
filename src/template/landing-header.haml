@@ -1,9 +1,10 @@
 %section.header
   %nav.navbar
-    .container
+    .container.modified
+      .logo
       #navbar.navbar-collapse.collapse
         %ul.nav.navbar-nav.main-menu
-          %li
+          %li.active
             %a
               %span
                 География
@@ -31,10 +32,10 @@
               .icon.icon-search-len
             %input.form-control.search-input{type: "text"}
         .contacts.pull-left
-          .earphone.pull-left
+          .icon.icon-earphone.pull-left
           +7 (495) 726-73-17
           %br
-          .envelope.pull-left
+          .icon.icon-envelope.pull-left
           %a{href: "mailto:mail@bcgroup.su"}
             mail@bcgroup.su
         %ul.languages.nav.navbar-nav.navbar-right
@@ -57,7 +58,7 @@
   .jumbotron
     .container-fluid
       .bcg
-        %img{src: "/img/BCG_clear.png", height: "584",  width: "1345"}
+        %img{src: "/img/BCG_clear.png", height: "367",  width: "845"}
         -#.roup
           -#roup
         -#.u-human

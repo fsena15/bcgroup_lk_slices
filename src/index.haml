@@ -3,9 +3,12 @@
   %head{lang: "ru"}
     %meta{charset: "UTF-8"}
       %title
+
     %link{href: "css/vendor.css", rel: "stylesheet"}
     %link{href: "css/main.css", rel: "stylesheet"}
   %body
+    / bower:js
+    / endinject
     %script{src: "js/main.js"}
     //= template/landing-header.haml
     //= template/fixed-menu.haml
