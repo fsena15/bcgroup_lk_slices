@@ -19,5 +19,9 @@
     "imagemin-pngquant": "^4.0.0",
     "rimraf": "^2.3.1",
     "gulp-haml": "^0.1.5"
+  },
+  "devDependencies": {
+    "gulp-inject": "^1.5.0",
+    "main-bower-files": "^2.9.0"
   }
 }

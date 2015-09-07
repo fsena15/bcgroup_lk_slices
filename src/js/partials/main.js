@@ -4,7 +4,7 @@
 $(function () {
     // categories menu
     $('.categories-navbar.simple-slider').simpleSlider({
-        stepSize: 230,
+        stepSize: 270,
         cycled: true,
         navPrev: '.categories-navbar .right-arrow',
         navNext: '.categories-navbar .left-arrow',

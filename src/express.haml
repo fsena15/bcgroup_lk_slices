@@ -3,10 +3,10 @@
   %head{lang: "ru"}
     %meta{charset: "UTF-8"}
       %title
+
     %link{href: "css/vendor.css", rel: "stylesheet"}
     %link{href: "css/other.css", rel: "stylesheet"}
   %body
-    %script{src: "js/other.js"}
     //= template/header.haml
     //= template/fixed-menu.haml
     .container.modified
@@ -127,23 +127,32 @@
                 %table.section-text
                   %tr
                     %td.section-icon-col
-                      .section-icon.icon.icon-service-inner-methods
+                      .section-icon.icon.icon-service-inner-pack
                       -#%img.section-icon{width: "45", src: "/img/news.png"}
                     %td.section-text-col
                       .title
-                        Возможности и методики
+                        Пакет "Обзор рынка"
                       .body
-                        Для отслеживания позиций компании и конкурентов незаменимым показателем является доля
-                        рынка. Доля рынка отражает развитие, влияние конкурентов, результаты маркетинговой
-                        деятельности каждого из них.
-                        Для чего компании необходимо знать и отслеживать эти показатели? Во-первых, зная емкость и
-                        доли участников, можно рассчитать не только объем выручки отдельно взятых конкурентов, но и
-                        другие финансовые показатели, получить возможность для увеличения собственной доли рынка,
-                        выявить наиболее слабые звенья в рыночной цепочке. Вторая причина - это отслеживание
-                        развития собственной компании. Развитие компании может выглядеть идеально: растут доходы,
-                        увеличивается прибыль. Но при этом рост может быть обусловлен лишь ростом рынка. Показатель
-                        доли рынка позволяет отделять эффект роста рынка от роста компании и отслеживать
-                        эффективность управленческих и маркетинговых решений.
+                        %ol
+                          %li
+                            Оценка емкости и потенциала рынка: на территории в целом и по отдельным регионам
+                          %li
+                            Тенденции развития рынка на ближайшие 3-5 лет
+                          %li
+                            Структура каналов продаж, сложившаяся на рынке
+                          %li
+                            Сегментирование клиентов, оценка их финансовой емкости
+                          %li
+                            Важность критериев потребительского выбора
+                          %li
+                            Расчет отдачи от инвестиций при выходе на рынок
+                          %li
+                            Матрица привлекательности рынка
+                        Стоимость пакета "Обзор рынка": 48 000 руб. (возможен заказ части пакета)
+                        .clearfix
+                        %br
+                        .btn.button-main
+                          Оформить заказ
                 %table.section-text
                   %tr
                     %td.section-icon-col
@@ -218,31 +227,8 @@
                             сильных и слабых участников рынка, а также определяет (самостоятельно или с помощью
                             заказчика) целевую аудиторию рынка;
 
-                %table.section-text
-                  %tr
-                    %td.section-icon-col
-                      .section-icon.icon.icon-service-inner-clock
-                    -#%img.section-icon{width: "45", src: "/img/news.png"}
-                    %td.section-text-col
-                      .title
-                        Как заказать?
-                      .body
-                        %form
-                          .form-group
-                            %label
-                              Номер телефона
-                            %input.form-control{name: "phone"}
-                          .form-group
-                            %label
-                              Ваше имя и фамилия
-                            %input.form-control{name: "fio"}
-                          .form-group
-                            %label
-                              Адрес электронной почты
-                            %input.form-control{name: "email"}
-
-                          %input.btn.button-additional{type: "submit", value: "Заказать"}
-
     .left-field.advertising-field-left
     .right-field.advertising-field-right
     //= template/footer.haml
+    / bower:js
+    / endinject

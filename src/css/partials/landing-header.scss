@@ -201,7 +201,8 @@ $height-pages-navbar: 120px;
   background-color: #4b4b4d;
   border-radius: 0;
   padding: 30px 134px;
-  font-size: 1.1em;
+  font-size: 14pt;
+  line-height: 14pt;
   margin-bottom: 70px;
 
   .slider-items-container {
@@ -211,6 +212,8 @@ $height-pages-navbar: 120px;
   }
 
   .slider-item {
+    width: 270px;
+
     .item-icon {
       & > a, & > a:hover {
         color: $color-links;

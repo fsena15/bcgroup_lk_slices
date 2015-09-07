@@ -16,7 +16,9 @@ var gulp = require('gulp'),
     rimraf = require('rimraf'),
     haml = require('gulp-haml'),
     browserSync = require("browser-sync"),
-    reload = browserSync.reload;
+    reload = browserSync.reload,
+    bowerFiles = require('main-bower-files'),
+    inject = require('gulp-inject');
 
 var config = {
     server: {
@@ -61,6 +63,7 @@ gulp.task('html:build', function () {
     gulp.src(path.src.html) //Выберем файлы по нужному пути
         .pipe(rigger()) //Прогоним через rigger
         .pipe(haml())
+        .pipe(inject(gulp.src(bowerFiles(), {read: false}), {name: 'bower'}))
         .pipe(gulp.dest(path.build.html)) //Выплюнем их в папку build
         .pipe(reload({stream: true})); //И перезагрузим наш сервер для обновлений
 });

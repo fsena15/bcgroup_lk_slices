@@ -83,6 +83,9 @@ $employee-side-padding: 7px;
   .categories-navbar {
     background-color: $page-other-background;
     height: 120px;
+    font-size: 14pt;
+    line-height: 14pt;
+
     a {
       color: $color-header;
 
@@ -116,7 +119,7 @@ $employee-side-padding: 7px;
 
           li {
             height: 100%;
-            width: 250px;
+            width: 300px;
             padding: 0 25px;
 
             &.active {
@@ -127,6 +130,7 @@ $employee-side-padding: 7px;
 
           .slider-item {
             height: 100%;
+            width: 270px;
 
             .item-icon {
               & > a, & > a:hover {

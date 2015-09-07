@@ -171,13 +171,30 @@ body {
       }
     }
 
+    .dot-line-group {
+      height: 20px;
+      float: right;
+      position: relative;
+      left: 210px;
+      top: 56px;
+
+      .dot-line {
+        float: right;
+        background: url("#{$base-path}img/link_line.png") repeat-x 0 3px;
+        height: 100%;
+        margin: 0 5px;
+      }
+    }
+
     .free-dia {
       background: url("#{$base-path}img/free-dia.png");
       width: 113px;
       height: 113px;
       float: right;
       margin-left: 10px;
-      margin-right: 10px;
+      position: relative;
+      right: -197px;
+      top: -25px;
     }
 
     .awards-line {
@@ -383,8 +400,8 @@ body {
 
       .body {
         margin: 21px 0;
-        font-size: 12pt;
-        line-height: 23pt;
+        font-size: 14pt;
+        line-height: 21pt;
       }
 
       .results {
@@ -478,6 +495,11 @@ body {
   .news {
     height: 725px;
     overflow: hidden;
+
+    .news-elem .body {
+      font-size: 13pt;
+      line-height: 21pt;
+    }
   }
 
   .news-wrapper {
@@ -491,8 +513,9 @@ body {
   .vote {
     height: 725px;
 
-    .body {
+    .body, .answers {
       font-size: 13pt;
+      line-height: 21pt;
     }
   }
 
