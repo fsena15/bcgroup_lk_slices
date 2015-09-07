@@ -211,7 +211,7 @@ $height-pages-navbar: 120px;
   }
 }
 
-.categories-navbar {
+.categories-navbar, .categories-navbar-dummy {
   height: $height-pages-navbar;
   background-color: #4b4b4d;
   border-radius: 0;
@@ -219,6 +219,9 @@ $height-pages-navbar: 120px;
   font-size: 14pt;
   line-height: 14pt;
   margin-bottom: 70px;
+  width: 100%;
+  z-index: 30;
+  top: 0;
 
   .slider-items-container {
     width: 95%;
