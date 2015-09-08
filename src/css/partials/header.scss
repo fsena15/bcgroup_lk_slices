@@ -17,7 +17,7 @@ $height-header: 125px;
   }
 
   .logo {
-    background: url("#{$base-path}img/bcg_logo_2013.png");
+    background: url("#{$base-path}img/bcg_logo_2013.png") no-repeat;
     height: 73px;
     width: 208px;
     float: left;
@@ -103,7 +103,7 @@ $height-header: 125px;
         padding-left: 6px;
         border: 2px solid $color-brown;
         border-left-width: 0;
-        height: 32px;
+        height: 31px;
         border-bottom-right-radius: 10px;
         border-top-right-radius: 10px;
         background-color: #FFFFFF;
