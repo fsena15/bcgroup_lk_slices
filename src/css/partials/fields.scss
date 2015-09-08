@@ -1,5 +1,5 @@
 @mixin field-background($type, $side) {
-  background: url("#{$base-path}img/fields/service_#{$type}_field_#{$side}.png");
+  background: url("#{$base-path}img/fields/service_#{$type}_field_#{$side}.png") no-repeat;
 }
 
 .left-field {

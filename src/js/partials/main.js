@@ -24,19 +24,31 @@ $(function () {
 
     //quick menu and categories navbar
     var topPosition = 400;
+    var bottomPosition = $('section.footer').height();
+    var windowHeight = $( window ).height();
+
     $(document).scroll(function () {
-        if ($(this).scrollTop() - topPosition > 0) {
+        var pageHeight = $(document).height();
+        var scrollTop = $(this).scrollTop();
+
+        if (scrollTop - topPosition > 0) {
             $('.right-quick-menu').addClass('dark');
         } else {
             $('.right-quick-menu').removeClass('dark');
         }
 
-        if ($(this).scrollTop() - topPosition - 130 > 0) {
+        if (scrollTop - topPosition - 130 > 0) {
             $('.categories-navbar-dummy').show();
             $('.categories-navbar').css('position', 'fixed');
         } else {
             $('.categories-navbar-dummy').hide();
             $('.categories-navbar').css('position', '');
+        }
+
+        if (scrollTop - topPosition - 130 > 0 && pageHeight - windowHeight - scrollTop > bottomPosition) {
+            $('.contacts-panel').show();
+        } else {
+            $('.contacts-panel').hide();
         }
     });
 
