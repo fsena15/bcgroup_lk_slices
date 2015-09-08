@@ -1,0 +1,41 @@
+$height-pages-navbar: 120px;
+
+.categories-navbar, .categories-navbar-dummy {
+  height: $height-pages-navbar;
+  background-color: #4b4b4d;
+  border-radius: 0;
+  padding: 30px 134px;
+  font-size: 14pt;
+  line-height: 14pt;
+  width: 100%;
+  z-index: 30;
+  top: 0;
+
+  .slider-items-container {
+    width: 95%;
+    min-width: 1000px;
+
+  }
+
+  .slider-item {
+    width: 270px;
+
+    .item-icon {
+      & > a, & > a:hover {
+        color: $color-links;
+
+        & > div {
+          height: 45px;
+          width: 45px;
+          font-size: 45px;
+          line-height: 45px;
+        }
+      }
+    }
+
+    .item-name a:hover {
+      color: $color-yellow;
+    }
+  }
+
+}

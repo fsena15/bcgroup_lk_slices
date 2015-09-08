@@ -2,15 +2,6 @@
  * Created by shnell on 16.04.15.
  */
 $(function () {
-    // categories menu
-    $('.categories-navbar.simple-slider').simpleSlider({
-        stepSize: 270,
-        cycled: true,
-        navPrev: '.categories-navbar .right-arrow',
-        navNext: '.categories-navbar .left-arrow',
-        list: '.categories-navbar .slider-items',
-        items: '> li'
-    });
 
     $('.news .slider-items').simpleSlider({
         stepSize: 242,

@@ -1,9 +1,8 @@
 @import "fixed-menu";
 @import "simple-slider";
+@import "categories-navbar";
 
 $height-header: 125px;
-$height-top-navbar: 100px;
-$height-pages-navbar: 120px;
 
 .header {
   background: #FFFFFF;
@@ -12,7 +11,6 @@ $height-pages-navbar: 120px;
   border-bottom: 2px solid #ebebeb;
   font-size: 1.15em;
   padding-top: 30px;
-  margin-bottom: 10px;
 
   .container.modified {
     width: 1294px;
@@ -88,7 +86,7 @@ $height-pages-navbar: 120px;
     }
 
     .search-form {
-      margin: 20px 0px;
+      margin: 20px 0;
       width: 230px;
 
       .input-group-addon {

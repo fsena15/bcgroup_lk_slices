@@ -81,76 +81,6 @@ $employee-side-padding: 7px;
 
 /* Employees -- END */
 .top-yellow {
-  .categories-navbar {
-    background-color: $page-other-background;
-    height: 120px;
-    font-size: 14pt;
-    line-height: 14pt;
-
-    a {
-      color: $color-header;
-
-      &:hover {
-        color: $color-header;
-      }
-    }
-
-    .left-arrow {
-      position: absolute;
-      left: 30px;
-      top: 31px;
-    }
-
-    .right-arrow {
-      position: absolute;
-      right: 30px;
-      top: 31px;
-    }
-
-    .slider-items-container {
-      width: 100%;
-      height: 100%;
-      padding: 0 90px;
-
-      .slider-items-wrapper {
-        height: 100%;
-
-        .slider-items {
-          height: 100%;
-
-          li {
-            height: 100%;
-            width: 300px;
-            padding: 0 25px;
-
-            &.active {
-              padding-top: 5px;
-              border-bottom: 5px solid $color-yellow;
-            }
-          }
-
-          .slider-item {
-            height: 100%;
-            width: 270px;
-
-            .item-icon {
-              & > a, & > a:hover {
-                color: $color-links;
-
-                & > div {
-                  height: 45px;
-                  width: 45px;
-                  font-size: 45px;
-                  line-height: 45px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-
   a:hover {
     color: $color-yellow;
   }
@@ -388,8 +318,8 @@ $project-width: 400px;
 .top-yellow.news-elem {
   .title {
     color: $color-yellow;
-    font-size: 12pt;
-    margin-bottom: 19px;
+    font-size: 13pt;
+    line-height: 21pt;
     font-family: $font-fmOT3-bold;
 
     a, a:hover {

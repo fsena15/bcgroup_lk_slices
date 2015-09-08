@@ -29,6 +29,16 @@ function number_format (number, decimals, dec_point, thousands_sep) {
 $(function () {
     $('input, select').styler();
 
+    // categories menu
+    $('.categories-navbar.simple-slider').simpleSlider({
+        stepSize: 270,
+        cycled: true,
+        navPrev: '.categories-navbar .right-arrow',
+        navNext: '.categories-navbar .left-arrow',
+        list: '.categories-navbar .slider-items',
+        items: '> li'
+    });
+
     $('.logos-line.simple-slider').simpleSlider({
         stepSize: 185,
         cycled: true,
