@@ -31,6 +31,16 @@ body {
   line-height: 1;
 }
 
+.num_input_text {
+  text-align: center;
+  width: 40px;
+  height: 30px;
+}
+
+.left-quick-menu, .right-quick-menu {
+  top: 250px;
+}
+
 @media all and (min-width: 1500px)  {
   .wide-block {
     margin-left: -135px;

@@ -25,7 +25,7 @@ $height-header: 125px;
 
   .main-menu {
     margin-top: 10px;
-    margin-left: 15px;
+    margin-left: 0;
   }
 
   #navbar {
@@ -128,7 +128,7 @@ $height-header: 125px;
     .contacts {
       font-family: $font-fmOT3-medium;
       color: #4a4b4d;
-      padding: 5px 0 0 10px;
+      padding: 5px 0 0 0;
       font-size: 14pt;
 
       a {

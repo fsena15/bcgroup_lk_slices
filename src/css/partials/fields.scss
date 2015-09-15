@@ -4,11 +4,22 @@
 
 .left-field {
   width: 300px;
-  height: 1300px;
+  height: 931px;
   position: absolute;
   z-index: -1;
   left: 0;
-  bottom: $footer-height;
+  //bottom: $footer-height - 20px;
+  top: 250px;
+}
+
+.left-field-switch {
+  width: 300px;
+  height: 369px;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: $footer-height - 20px;
+  background: url("#{$base-path}img/fields/switch_field_l.png") no-repeat;
 }
 
 .right-field {
@@ -17,7 +28,8 @@
   position: absolute;
   z-index: -1;
   right: 0;
-  bottom: $footer-height;
+  //bottom: $footer-height - 20px;
+  top: 250px;
 }
 
 .advertising-field-left { @include field-background('advertising', 'l');}
