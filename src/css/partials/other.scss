@@ -29,6 +29,10 @@ body {
   text-align: center;
   width: $page-other-width;
   line-height: 1;
+
+  & > .top-yellow {
+    min-height: 750px;
+  }
 }
 
 .num_input_text {
