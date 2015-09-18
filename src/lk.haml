@@ -1,0 +1,58 @@
+!!!
+%html
+  %head{lang: "ru"}
+    %meta{charset: "UTF-8"}
+      %title
+
+    / bower:css
+    / endinject
+    %link{href: "css/vendor.css", rel: "stylesheet"}
+    %link{href: "css/lk.css", rel: "stylesheet"}
+  %body
+    //= template/lk-header.haml
+    .container.modified
+      //= template/breadcrumb.haml
+      .main-block.center
+        .row.title-row
+          .title-icon
+            .bordered
+              .icon.icon-title-personal
+              -#%img{src: "/img/news.png", height: "38", width: "30"}
+          .title
+            Личный кабинет
+
+        .top-yellow.text-left
+          .text-block
+            #question-to-manager
+              %h2
+                Задайте вопрос менеджеру
+              .photos
+                .photo
+                  %img{src: "x.jpg", alt: ""}
+                  .name
+                    Анна
+                .photo
+                  %img{src: "x.jpg", alt: ""}
+                  .name
+                    Валерия
+                .photo
+                  %img{src: "x.jpg", alt: ""}
+                  .name
+                    Екатерина
+                .photo
+                  %img{src: "x.jpg", alt: ""}
+                  .name
+                    Юлия
+                .photo
+                  %img{src: "x.jpg", alt: ""}
+                  .name
+                    Инна
+                .photo
+                  %img{src: "x.jpg", alt: ""}
+                  .name
+                    Дарья
+    .left-field.advertising-field-left
+    .right-field.advertising-field-right
+    //= template/footer.haml
+    / bower:js
+    / endinject

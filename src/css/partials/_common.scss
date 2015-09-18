@@ -28,6 +28,123 @@ a {
   }
 }
 
+ol {
+  list-style-type: none;
+  counter-reset:  item;
+  padding: 0;
+
+  li {
+    &:before {
+      color: $color-header;
+      font-weight: bold;
+      content: counter(item) ') ';
+      counter-increment: item;
+    }
+  }
+}
+
+.text-block {
+  padding: 27px 30px 45px;
+  text-align: left;
+  font-size: 11pt;
+  line-height: 23pt;
+  font-family: $font-pt-sans-caption;
+}
+
+.btn {
+  border-radius: 0;
+  border: 0;
+  margin-right: 12px;
+  padding: 8px 12px;
+
+  &:focus {
+    border: 0;
+    border-radius: 0;
+  }
+
+  &:hover {
+    color: #FFFFFF;
+  }
+}
+
+.button-main {
+  background-color: $color-yellow;
+  color: #FFFFFF;
+}
+
+.button-additional {
+  background-color: #938169;
+  color: #FFFFFF;
+}
+
+label {
+  font-family: $font-fmOT3-regular;
+}
+
+input {
+  border-radius: 0;
+}
+
+form {
+  .errors {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    text-shadow: 0 1px 0 rgba(255,255,255,.2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.25),0 1px 2px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.25),0 1px 2px rgba(0,0,0,.05);
+    background-image: -webkit-linear-gradient(top,#f2dede 0,#e7c3c3 100%);
+    background-image: -o-linear-gradient(top,#f2dede 0,#e7c3c3 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f2dede),to(#e7c3c3));
+    background-image: linear-gradient(to bottom,#f2dede 0,#e7c3c3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffe7c3c3', GradientType=0);
+    background-repeat: repeat-x;
+    border-color: #dca7a7;
+    border-radius: 0px;
+    margin: 10px 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+}
+
+.alert {
+  border-radius: 0px;
+  margin: 10px 0;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.jq-radio {
+  margin-right: 12px;
+  height: 8px;
+  width: 9px;
+  background: #FFFFFF url("#{$base-path}img/checkbox-unchecked.png");
+  border: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  &.checked .jq-radio__div {
+    background: $color-yellow url("#{$base-path}img/checkbox-unchecked.png");
+    margin: 0;
+    border: 0;
+    height: 8px;
+    width: 9px;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+}
+.jq-checkbox {
+  margin-right: 10px;
+}
+
 .top-yellow {
   background-color: #FFFFFF;
   border-top: 5px solid $color-yellow;
@@ -38,116 +155,6 @@ a {
 
   .white-block & {
     background-color: #F0F0F0;
-  }
-
-  ol {
-    list-style-type: none;
-    counter-reset:  item;
-    padding: 0;
-
-    li {
-      &:before {
-        color: $color-header;
-        font-weight: bold;
-        content: counter(item) ') ';
-        counter-increment: item;
-      }
-    }
-  }
-
-  .text-block {
-    padding: 27px 30px 45px;
-    text-align: left;
-    font-size: 11pt;
-    line-height: 23pt;
-    font-family: $font-pt-sans-caption;
-  }
-
-  .btn {
-    border-radius: 0;
-    border: 0;
-    margin-right: 12px;
-    padding: 8px 12px;
-
-    &:focus {
-      border: 0;
-      border-radius: 0;
-    }
-  }
-
-  .button-main {
-    background-color: $color-yellow;
-    color: #FFFFFF;
-  }
-
-  .button-additional {
-    background-color: #938169;
-    color: #FFFFFF;
-  }
-
-  label {
-    font-family: $font-fmOT3-regular;
-  }
-
-  input {
-    border-radius: 0;
-  }
-
-  form {
-    .errors {
-      padding: 15px;
-      margin-bottom: 20px;
-      border: 1px solid transparent;
-      border-radius: 4px;
-      color: #a94442;
-      background-color: #f2dede;
-      border-color: #ebccd1;
-      text-shadow: 0 1px 0 rgba(255,255,255,.2);
-      -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.25),0 1px 2px rgba(0,0,0,.05);
-      box-shadow: inset 0 1px 0 rgba(255,255,255,.25),0 1px 2px rgba(0,0,0,.05);
-      background-image: -webkit-linear-gradient(top,#f2dede 0,#e7c3c3 100%);
-      background-image: -o-linear-gradient(top,#f2dede 0,#e7c3c3 100%);
-      background-image: -webkit-gradient(linear,left top,left bottom,from(#f2dede),to(#e7c3c3));
-      background-image: linear-gradient(to bottom,#f2dede 0,#e7c3c3 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffe7c3c3', GradientType=0);
-      background-repeat: repeat-x;
-      border-color: #dca7a7;
-      border-radius: 0px;
-      margin: 10px 0;
-      padding-top: 7px;
-      padding-bottom: 7px;
-    }
-  }
-
-  .alert {
-    border-radius: 0px;
-    margin: 10px 0;
-    padding-top: 7px;
-    padding-bottom: 7px;
-  }
-
-  .jq-radio {
-    margin-right: 12px;
-    height: 8px;
-    width: 9px;
-    background: #FFFFFF url("#{$base-path}img/checkbox-unchecked.png");
-    border: 0;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-
-    &.checked .jq-radio__div {
-      background: $color-yellow url("#{$base-path}img/checkbox-unchecked.png");
-      margin: 0;
-      border: 0;
-      height: 8px;
-      width: 9px;
-      border-radius: 0;
-      -webkit-box-shadow: none;
-      -moz-box-shadow: none;
-      box-shadow: none;
-    }
   }
 
   .section-title {

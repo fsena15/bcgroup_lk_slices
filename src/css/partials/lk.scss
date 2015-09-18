@@ -1,0 +1,180 @@
+@import "header";
+@import "breadcrumbs";
+@import "footer";
+
+.header .main-menu {
+  margin-left: 115px;
+  font-family: $font-fmOT3-ex-bold;
+  font-size: 13pt;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+body {
+  font-family: $font-fmOT3-medium;
+  font-size: 14px;
+  min-width: 1345px;
+  background-color: $page-other-background;
+  position: relative;
+}
+
+.container.modified {
+  width: $page-other-width;
+}
+
+.bordered {
+  border: 5px solid #77644A;
+  color: #77644A;
+  padding: 0 8px;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.main-block {
+  padding: 40px 0;
+  text-align: center;
+  width: $page-other-width;
+  line-height: 1;
+
+  & > .top-yellow {
+    min-height: 750px;
+  }
+}
+
+.top-yellow {
+  a:hover {
+    color: $color-yellow;
+  }
+
+  .categories-row {
+    margin-bottom: 40px;
+  }
+}
+
+.margin-left-30 {
+  margin-left: 30px;
+}
+
+.form-content {
+  padding: 10px;
+}
+
+.tree-content {
+  ul {
+    /*list-style: none;*/
+    padding-left: 30px;
+  }
+
+  li {
+    margin: 10px 5px;
+  }
+}
+
+.axis-wrapper {
+  margin: 20px 0;
+
+  .axis {
+    margin: 20px 0;
+  }
+}
+
+.dropdown-submenu {
+  position: relative;
+
+  & > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px 6px;
+    border-radius: 0 6px 6px 6px;
+  }
+
+  &:hover > .dropdown-menu {
+    display: block;
+  }
+
+  & > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-right-width: 0;
+    border-left-color: #cccccc;
+    margin-top: 5px;
+    margin-right: -10px;
+  }
+
+  &:hover > a:after {
+    border-left-color: #ffffff;
+  }
+
+  &.pull-left {
+    float: none;
+
+    & > .dropdown-menu {
+      left: -100%;
+      margin-left: 10px;
+      -webkit-border-radius: 6px 0 6px 6px;
+      -moz-border-radius: 6px 0 6px 6px;
+      border-radius: 6px 0 6px 6px;
+    }
+  }
+}
+
+.main-block .nav > li {
+  font-size: 14pt;
+  line-height: 14pt;
+  padding: 0;
+  vertical-align: middle;
+
+  &.active {
+    border-bottom: 4px solid #FFC432;
+  }
+
+  & > a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover, &:focus {
+      background-color: #FFECC0;
+    }
+  }
+
+  &:hover, &:focus {
+    background-color: #FFECC0;
+  }
+}
+
+#simple-page-form textarea {
+  padding-top: 10px;
+  line-height: 16px;
+}
+
+#question-to-manager {
+  .photos {
+    margin: 20px auto;
+    display: inline-block;
+
+    .photo {
+      display: inline-block;
+      cursor: pointer;
+      float: left;
+      margin: 0 50px 0 0;
+
+      img {
+        //border-radius: 10px;
+      }
+
+      .name {
+        text-align: center;
+        font-size: 12pt;
+      }
+    }
+  }
+}
