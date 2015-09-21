@@ -2,6 +2,30 @@
 @import "breadcrumbs";
 @import "footer";
 
+/* Login page BEGIN */
+.header.special-header {
+  background-color: $page-other-background;
+  border: 0;
+}
+
+.login-form-wrapper {
+  padding: 10px 55px;
+  width: 590px;
+  margin-left: 50%;
+  position: relative;
+  left: -290px;
+
+  .control-label {
+    text-align: left;
+    padding-right: 0;
+  }
+
+  .checkbox label {
+    padding-left: 0;
+  }
+}
+/* Login page END */
+
 .header .main-menu {
   margin-left: 115px;
   font-family: $font-fmOT3-ex-bold;

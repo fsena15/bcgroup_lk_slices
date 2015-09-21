@@ -1,0 +1,65 @@
+!!!
+%html
+  %head{lang: "ru"}
+    %meta{charset: "UTF-8"}
+      %title
+
+    / bower:css
+    / endinject
+    %link{href: "css/vendor.css", rel: "stylesheet"}
+    %link{href: "css/lk.css", rel: "stylesheet"}
+  %body
+    %section.header.special-header
+      %nav.navbar
+        .container.modified
+          .logo
+    .container.modified
+      //= template/breadcrumb.haml
+      .main-block.center
+        .row.title-row
+          .title-icon
+            .bordered
+              .icon.icon-title-personal
+              -#%img{src: "/img/news.png", height: "38", width: "30"}
+          .title
+            Личный кабинет
+
+        .row
+          .login-form-wrapper.top-yellow.text-left
+            #content
+              %h1
+                Авторизация
+              %p
+                Для входа в личный кабинет заполните форму
+              %form.form-horizontal#login-form{role: "form"}
+                %p
+                  * — Поля, обязательны для заполнения.
+
+                .form-group
+                  %label.col-xs-2.control-label.required
+                    Логин&nbsp;
+                    %span.required
+                      *
+                  .col-xs-10
+                    %input.form-control{placeholder: "Логин", type: "text"}
+                .form-group
+                  %label.col-xs-2.control-label.required
+                    Пароль&nbsp;
+                    %span.required
+                      *
+                  .col-xs-10
+                    %input.form-control{placeholder: "Пароль", type: "password"}
+
+                .form-group.rememberMe
+                  .col-xs-offset-2.col-xs-4
+                    .checkbox
+                      %label
+                        %input{type: "checkbox"}
+                        Запомнить меня
+                .form-group
+                  .col-sm-offset-2.col-xs-10
+                    %button.btn.button-main{type: "submit"}
+                      Войти
+
+    / bower:js
+    / endinject
