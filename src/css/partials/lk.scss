@@ -8,12 +8,30 @@
   border: 0;
 }
 
+.img-layer {
+  background: url("#{$base-path}img/login_page.png") no-repeat;
+  height: 765px;
+  width: 976px;
+  z-index: 10;
+  pointer-events: none;
+  top: 95px;
+  left: -576px;
+  position: absolute;
+  margin-left: 50%;
+}
+
+#login-form {
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+
 .login-form-wrapper {
   padding: 10px 55px;
-  width: 590px;
+  width: 461px;
   margin-left: 50%;
   position: relative;
-  left: -290px;
+  left: -240px;
+  margin-top: 17px;
 
   .control-label {
     text-align: left;
