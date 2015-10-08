@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 17px;
   font-family: $font-fmOT3-bold;
   color: $color-header;
+
+  &.title {
+    margin-top: 0;
+  }
 }
 
 a {
