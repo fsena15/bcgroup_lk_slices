@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.title-row h1.title {
+  font-family: $font-fmOT3-medium;
+}
+
 a {
   cursor: pointer;
   color: $color-links;
