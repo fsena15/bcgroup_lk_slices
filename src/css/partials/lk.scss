@@ -3,6 +3,21 @@
 @import "footer";
 
 /* Login page BEGIN */
+.login-page {
+
+  .breadcrumb {
+    margin-bottom: 0;
+  }
+
+  .main-block {
+    padding-top: 0;
+
+    .title-row {
+      margin-bottom: 14px;
+    }
+  }
+}
+
 .header.special-header {
   background-color: $page-other-background;
   border: 0;
@@ -10,7 +25,7 @@
 
 .img-layer {
   background: url("#{$base-path}img/login_page.png") no-repeat;
-  height: 765px;
+  height: 630px;
   width: 976px;
   z-index: 10;
   pointer-events: none;
@@ -22,11 +37,11 @@
 
 #login-form {
   margin-top: 25px;
-  margin-bottom: 60px;
+  margin-bottom: 28px;
 }
 
 .login-form-wrapper {
-  padding: 10px 55px;
+  padding: 10px 55px 0;
   width: 461px;
   margin-left: 50%;
   position: relative;
