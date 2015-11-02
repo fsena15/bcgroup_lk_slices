@@ -93,10 +93,19 @@ body {
   padding: 40px 0;
   text-align: center;
   width: $page-other-width;
-  line-height: 1;
+  //line-height: 1;
+  font-family: $font-pt-sans-caption;
+  font-size: 11pt;
+  line-height: 23pt;
 
   & > .top-yellow {
     min-height: 750px;
+  }
+
+  &.public {
+    padding: 0;
+    text-align: left;
+
   }
 }
 
