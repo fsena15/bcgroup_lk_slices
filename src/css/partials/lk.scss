@@ -89,6 +89,12 @@ body {
   font-weight: bold;
 }
 
+@media (min-width: 830px) and (max-width: 991px){
+  .container {
+    width: 810px;
+  }
+}
+
 .main-block {
   padding: 40px 0;
   text-align: center;
@@ -105,7 +111,7 @@ body {
   &.public {
     padding: 0;
     text-align: left;
-
+    width: 100%;
   }
 }
 
