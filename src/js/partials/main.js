@@ -46,6 +46,7 @@ $(function () {
     // comments slider
     $('.comments-slider').bxSlider({
         auto: true,
-        controls: false
+        controls: false,
+        pause: 8000
     });
 });
