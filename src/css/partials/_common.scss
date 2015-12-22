@@ -170,12 +170,8 @@ form {
   }
 }
 
-.top-yellow {
+.common-block {
   background-color: #FFFFFF;
-  border-top: 5px solid $color-yellow;
-  border-bottom: 2px solid #ededed;
-  border-left: 1px solid #fcfcfc;
-  border-right: 1px solid #fcfcfc;
   margin-bottom: 17px;
 
   .white-block & {
@@ -256,6 +252,14 @@ form {
       padding-top: 15px;
     }
   }
+}
+
+.top-yellow {
+  border-top: 5px solid $color-yellow;
+  border-bottom: 2px solid #ededed;
+  border-left: 1px solid #fcfcfc;
+  border-right: 1px solid #fcfcfc;
+  @extend .common-block
 }
 
 .additional-links-row {
