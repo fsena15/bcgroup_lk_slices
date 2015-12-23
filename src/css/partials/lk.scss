@@ -36,17 +36,18 @@
 }
 
 #login-form {
-  margin-top: 25px;
+  //margin-top: 25px;
   margin-bottom: 28px;
 }
 
 .login-form-wrapper {
-  padding: 10px 55px 0;
+  padding: 0 55px;
   width: 461px;
   margin-left: 50%;
   position: relative;
   left: -240px;
-  margin-top: 17px;
+  //margin-top: 17px;
+  top: -5px;
 
   .control-label {
     text-align: left;
